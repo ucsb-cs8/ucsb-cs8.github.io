@@ -6,18 +6,30 @@ desc: "An introduction. git vs. github.com vs. github.ucsb.edu, repos, etc."
 A few basics facts about git, github.com, and github.ucsb.edu
 ----------------------------------------------------------------------------
 
-In addition to learning C++, one of the major goals of this course is to get really comfortable\
- with "version control", using a tool called "git" and a website called "github.com", and one ca\
-lled "github.ucsb.edu". Our first step is to "clone a github repo".
+In addition to learning Python, you may be offered the opportunity to learn a bit about "version control" in this course.
 
+"Version control" refers to systems for:
+* organizing and keeping track of different versions of the code for a system as it changes over time
+* sharing that code with others that need access, while keeping it private from those that should not
+* organizing changes when multiple people are making changes to the same piece of software.
+
+One of the most popular systems for version control is a tool called a tool called "git".  
+
+There are two websites that you might also use along with git:
+* a website called "github.com"
+* a website called "github.ucsb.edu". 
+
+In this article, we'll try to clear up some of the confusion that may arise about:
+* "git" vs. "github",
+* when you would use "github.com" vs. "github.ucsb.edu",
+* why you would even want to learn this in an introductory course 
+* and if so, which parts of git and github you might learn in CMPSC 8 (vs. the parts that you won't need to learn until later, and even then, only if you are going on to do more with programming after this course is over.(
 
 ### What is git and what is a repo?
 
 The software package "git" is an example of a "version control system". (Others include SVN, Mercurial, and in a previous generations, CVS, RCS, and SCCS).
 
-A git repo (short for repository) is nothing more than a collection of files and directories (folders), along with a special subdirectory called .git (stored only once in the top level directo\
-ry of the repo) that keeps track of the complete history of the files and directories contained in the repo. To some extent, the ".git" directory stays out of your way, and you use the files a\
-nd directories in the repository exactly the same way you'd use files and directories in a regular directory.
+A git repo (short for repository) is nothing more than a collection of files and directories (folders), along with a special subdirectory called .git (stored only once in the top level directory of the repo) that keeps track of the complete history of the files and directories contained in the repo. To some extent, the ".git" directory stays out of your way, and you use the files and directories in the repository exactly the same way you'd use files and directories in a regular directory.
 
 On the other hand, keeping files in a git repository has many advantages:
 
