@@ -22,6 +22,10 @@ collections:
     output: true
     permalink: /topics/:path/
 
+  ptopics:
+    output: true
+    permalink: /ptopics/:path/
+
   textbooks:
     output: true
     permalink: /textbooks/:path/
@@ -48,11 +52,19 @@ defaults:
     values:
       layout: topic
 
+ - scope:
+      path: ""
+      type: ptopics
+    values:
+      layout: topic
+
+
   - scope:
       path: ""
       type: resources
     values:
       layout: topic
+      
   - scope:
       path: ""
       type: instructor
