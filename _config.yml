@@ -45,26 +45,21 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-
   - scope:
       path: ""
       type: topics
     values:
       layout: topic
-
- - scope:
+  - scope:
       path: ""
       type: ptopics
     values:
       layout: topic
-
-
   - scope:
       path: ""
       type: resources
     values:
       layout: topic
-      
   - scope:
       path: ""
       type: instructor
