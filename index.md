@@ -30,14 +30,24 @@ This site is maintained in this github repo: <https://github.com/ucsb-cs8/ucsb-c
     </ul>
 </div>
 
+<div id="ptopics" data-role="collapsible" data-collapsed="false">
+  <h2>Python Topics</h2>
+  <ul>
+   {% for topic in site.ptopics %}
+     <li {% if topic.indent %} class="indent" {% endif %}><a href="{{topic.url}}">{{ topic.topic }}</a>&mdash;{{topic.desc}}</li>
+   {% endfor %}
+  </ul>
+</div>
+
 <div id="topics" data-role="collapsible" data-collapsed="false">
-  <h2>Topics</h2>
+  <h2>Other Topics</h2>
   <ul>
    {% for topic in site.topics %}
      <li {% if topic.indent %} class="indent" {% endif %}><a href="{{topic.url}}">{{ topic.topic }}</a>&mdash;{{topic.desc}}</li>
    {% endfor %}
   </ul>
 </div>
+
 
 
 <div id="resources" data-role="collapsible" data-collapsed="false">
