@@ -1,7 +1,7 @@
 ---
 title: "Python Programming in Context, 2nd Edition"
 layout: default
-desc: "Required Python Textbook"
+desc: "Required Python Textbook, S17 Matni"
 custom_sort_order: 1
 ---
 
