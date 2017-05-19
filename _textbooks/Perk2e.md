@@ -22,22 +22,24 @@ Chapter 1. Introduction to Computer Science
 
 Chapter 2. Python Data Types
 
-Chapter 3. Imperative Programming
+Chapter 3. Imperative Programming [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch03.zip)
 
-Chapter 4. Text data, Files, and Exceptions
+Chapter 4. Text data, Files, and Exceptions [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch04.zip)
 
-Chapter 5. Execution Control Structures
+Chapter 5. Execution Control Structures [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch05.zip)
 
-Chapter 6. Containers and Randomness
+Chapter 6. Containers and Randomness [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch06.zip)
 
-Chapter 7. Namespaces
+Chapter 7. Namespaces [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch07.zip)
 
-Chapter 8. Object-Oriented Programming
+Chapter 8. Object-Oriented Programming [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch08.zip)
 
-Chapter 9. Graphical User Interfaces
+Chapter 9. Graphical User Interfaces [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch09.zip)
 
-Chapter 10. Recursion
+Chapter 10. Recursion [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch010.zip)
 
-Chapter 11. The Web and Search
+Chapter 11. The Web and Search [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch11.zip)
 
-Chapter 12. Databases and Data Processing
+Chapter 12. Databases and Data Processing  [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch12.zip)
+
+[code for Case Studies](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/cs.zip)
