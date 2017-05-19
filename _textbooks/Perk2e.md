@@ -1,8 +1,8 @@
 ---
-title: "Python Programming in Context, 2nd Edition"
+title: "Introduction to Computing Using Python, 2nd Edition (Perkovic)"
 layout: default
 desc: "Required Textbook for Summer 2017, Conrad"
-custom_sort_order: 1
+custom_sort_order: 2
 ---
 
 | cover             | title                    | author      | edition| copyright |     isbn | publisher |
