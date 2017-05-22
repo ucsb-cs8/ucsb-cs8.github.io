@@ -85,7 +85,9 @@ custom_sort_order: 2
 
 ## Chapter 3. Imperative Programming 
 
-[download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch03.zip) [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch03)
+
+* [download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch03.zip) 
+* [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch03)
 
 * 3.1 Python Programs
     * Our First Python Program
@@ -130,7 +132,9 @@ custom_sort_order: 2
 
 ## Chapter 4. Text data, Files, and Exceptions 
 
-[download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch04.zip) [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch04)
+
+* [download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch04.zip) 
+* [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch04)
 
 
 </div>
@@ -138,62 +142,80 @@ custom_sort_order: 2
 
 ## Chapter 5. Execution Control Structures 
 
-[download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch05.zip) [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch05)
+
+* [download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch05.zip) 
+* [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch05)
 
 </div>
 <div data-role="collapsible" data-collapsed="true" markdown="1">
 
 ## Chapter 6. Containers and Randomness 
 
-[download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch06.zip) [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch06)
+
+* [download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch06.zip) 
+* [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch06)
 
 </div>
 <div data-role="collapsible" data-collapsed="true" markdown="1">
 
 ## Chapter 7. Namespaces 
 
-[download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch07.zip) [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch07)
+
+* [download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch07.zip) 
+* [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch07)
 
 </div>
 <div data-role="collapsible" data-collapsed="true" markdown="1">
 
 ## Chapter 8. Object-Oriented Programming 
 
-[download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch08.zip) [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch08)
+
+* [download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch08.zip) 
+* [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch08)
 
 </div>
 <div data-role="collapsible" data-collapsed="true" markdown="1">
 
 ## Chapter 9. Graphical User Interfaces 
 
-[download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch09.zip) [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch09)
+
+* [download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch09.zip) 
+* [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch09)
 
 </div>
 <div data-role="collapsible" data-collapsed="true" markdown="1">
 
 ## Chapter 10. Recursion 
 
-[download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch10.zip) [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch10)
+
+* [download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch10.zip) 
+* [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch10)
 
 </div>
 <div data-role="collapsible" data-collapsed="true" markdown="1">
 
 ## Chapter 11. The Web and Search 
 
-[download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch11.zip) [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch11)
+
+* [download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch11.zip) 
+* [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch11)
 
 </div>
 <div data-role="collapsible" data-collapsed="true" markdown="1">
 
 ## Chapter 12. Databases and Data Processing  
 
-[download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch12.zip) [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch12)
+
+* [download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch12.zip) 
+* [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch12)
 
 </div>
 <div data-role="collapsible" data-collapsed="true" markdown="1">
 
 ## Case Studies
 
-[download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/cs.zip) [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/case_studies)
+
+* [download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/cs.zip) 
+* [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/case_studies)
 
 </div>
