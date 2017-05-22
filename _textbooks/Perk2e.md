@@ -18,7 +18,35 @@ custom_sort_order: 2
 
 # Table of Contents
 
-Chapter 1. Introduction to Computer Science
+
+<div id="about" data-role="collapsible" data-collapsed="true" markdown="1">
+## Chapter 1. Introduction to Computer Science
+
+* 1.1 Computer Science
+    * What Do Computing Professionals Do?
+    * Models, Algorithms, and Programs
+    * Tools of the Trade 
+    * What Is Computer Science?
+* 1.2 Computer Systems
+    * Computer Hardware
+    * Operating Systems
+    * Networks and Network Protocols
+    * Programming Languages
+    * Software Libraries
+* 1.3 Python Programming Language
+    * Short History of Python
+    * Setting Up the Python Development Environment
+* 1.4 ComputationalThinking
+    * A Sample Problem
+    * Abstraction and Modeling
+    * Algorithm
+    * Data Types
+    * Assignments and Execution 
+    * Control Structures
+* Chapter Summary
+
+</div>
+
 
 Chapter 2. Python Data Types
 
