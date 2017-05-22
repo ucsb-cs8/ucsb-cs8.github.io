@@ -132,9 +132,33 @@ custom_sort_order: 2
 
 ## Chapter 4. Text data, Files, and Exceptions 
 
-
 * [download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch04.zip) 
 * [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch04)
+
+
+* 4.1 Strings, Revisited
+   * String Representations
+   * The Indexing Operator, Revisited
+   * String Methods
+* 4.2 Formatted Output
+   * Function print()
+   * String Method format()
+   * Lining Up Data in Columns
+   * Getting and Formatting the Date and Time
+* 4.3 Files
+   * File System
+   * Opening and Closing a File
+   * Patterns for Reading a Text File
+   * Writing to a Text File
+* 4.4 Errors and Exceptions
+    * SyntaxErrors
+    * Built-InExceptions
+* CaseStudy:Image Files
+
+* Chapter Summary
+* Solutions to Practice Problems
+* Exercises
+* Problems
 
 
 </div>
