@@ -170,6 +170,37 @@ custom_sort_order: 2
 * [download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch05.zip) 
 * [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch05)
 
+
+* 5.1 Decision Control and the if Statement
+   * Three-Way (and More!) Decisions
+   * Ordering of Conditions
+* 5.2 for Loop and Iteration Patterns
+    * Loop Pattern: Iteration Loop
+    * Loop Pattern: Counter Loop 
+    * Loop Pattern: Accumulator Loop
+    * Accumulating Different Types
+    * Loop Patterns:NestedLoop 
+* 5.3 MoreonLists:Two-DimensionalLists
+    * Two-Dimensional Lists
+    * Two-Dimensional Lists and the Nested Loop Pattern 
+* 5.4 whileLoop
+    * while Loop Usage
+* 5.5 More Loop Patterns
+    * Iteration Patterns: Sequence Loop
+    * Loop Pattern: Infinite Loop
+    * Loop Pattern: Loop and a Half
+* 5.6 Additional Iteration Control Statements
+    * break Statement
+    * continue Statement
+    * pass Statement
+* Case Study: Image Processing.
+
+* Chapter Summary
+* Solutions to Practice Problems
+* Exercises
+* Problems
+
+
 </div>
 <div data-role="collapsible" data-collapsed="true" markdown="1">
 
