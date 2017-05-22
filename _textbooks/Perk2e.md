@@ -94,7 +94,36 @@ custom_sort_order: 2
     * Interactive Input with input()
     * Function eval()
   
+* 3.2 ExecutionControlStructures
+    * One-Way Decisions
+    * Two-Way Decisions
+    * Iteration Structures
+    * Nesting Control Flow Structures
+    * Function range()
 
+* 3.3 User-DefinedFunction
+    * Our First Function
+    * Function Input Arguments
+    * print() versus return
+    * Function Definitions Are “Assignment” Statements
+    * Comments
+    * Docstrings
+
+* 3.4 Python Variables and Assignments
+    * Mutable and Immutable Types
+    * Assignments and Mutability
+    * Swapping
+    
+* 3.5 Parameter Passing
+     * Immutable Parameter Passing
+     * Mutable Parameter Passing
+
+* CaseStudy:Automating Turtle Graphics
+
+* Chapter Summary
+* Solutions to Practice Problems
+* Exercises
+* Problems
 
 </div>
 <div data-role="collapsible" data-collapsed="true" markdown="1">
