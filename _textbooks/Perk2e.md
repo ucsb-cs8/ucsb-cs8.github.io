@@ -19,7 +19,7 @@ custom_sort_order: 2
 # Table of Contents
 
 
-<div id="about" data-role="collapsible" data-collapsed="true" markdown="1">
+<div data-role="collapsible" data-collapsed="true" markdown="1">
 ## Chapter 1. Introduction to Computer Science
 
 * 1.1 Computer Science
@@ -46,28 +46,86 @@ custom_sort_order: 2
 * Chapter Summary
 
 </div>
+<div data-role="collapsible" data-collapsed="true" markdown="1">
 
 
-Chapter 2. Python Data Types
+## Chapter 2. Python Data Types
 
-Chapter 3. Imperative Programming [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch03.zip)
+</div>
+<div data-role="collapsible" data-collapsed="true" markdown="1">
 
-Chapter 4. Text data, Files, and Exceptions [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch04.zip)
+## Chapter 3. Imperative Programming 
 
-Chapter 5. Execution Control Structures [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch05.zip)
+[code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch03.zip)
 
-Chapter 6. Containers and Randomness [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch06.zip)
+</div>
+<div data-role="collapsible" data-collapsed="true" markdown="1">
 
-Chapter 7. Namespaces [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch07.zip)
+## Chapter 4. Text data, Files, and Exceptions 
 
-Chapter 8. Object-Oriented Programming [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch08.zip)
+[code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch04.zip)
 
-Chapter 9. Graphical User Interfaces [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch09.zip)
+</div>
+<div data-role="collapsible" data-collapsed="true" markdown="1">
 
-Chapter 10. Recursion [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch010.zip)
+## Chapter 5. Execution Control Structures 
 
-Chapter 11. The Web and Search [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch11.zip)
+[code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch05.zip)
 
-Chapter 12. Databases and Data Processing  [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch12.zip)
+</div>
+<div data-role="collapsible" data-collapsed="true" markdown="1">
+
+## Chapter 6. Containers and Randomness 
+
+[code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch06.zip)
+
+</div>
+<div data-role="collapsible" data-collapsed="true" markdown="1">
+
+## Chapter 7. Namespaces 
+
+[code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch07.zip)
+
+</div>
+<div data-role="collapsible" data-collapsed="true" markdown="1">
+
+## Chapter 8. Object-Oriented Programming 
+
+[code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch08.zip)
+
+</div>
+<div data-role="collapsible" data-collapsed="true" markdown="1">
+
+## Chapter 9. Graphical User Interfaces 
+
+[code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch09.zip)
+
+</div>
+<div data-role="collapsible" data-collapsed="true" markdown="1">
+
+## Chapter 10. Recursion 
+
+[code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch010.zip)
+
+</div>
+<div data-role="collapsible" data-collapsed="true" markdown="1">
+
+## Chapter 11. The Web and Search 
+
+[code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch11.zip)
+
+</div>
+<div data-role="collapsible" data-collapsed="true" markdown="1">
+
+## Chapter 12. Databases and Data Processing  
+
+[code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch12.zip)
+
+</div>
+<div data-role="collapsible" data-collapsed="true" markdown="1">
+
+## Case Studies
 
 [code for Case Studies](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/cs.zip)
+
+</div>
