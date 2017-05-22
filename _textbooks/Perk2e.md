@@ -36,7 +36,7 @@ custom_sort_order: 2
 * 1.3 Python Programming Language
     * Short History of Python
     * Setting Up the Python Development Environment
-* 1.4 ComputationalThinking
+* 1.4 Computational Thinking
     * A Sample Problem
     * Abstraction and Modeling
     * Algorithm
