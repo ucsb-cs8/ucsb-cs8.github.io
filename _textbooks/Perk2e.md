@@ -210,6 +210,38 @@ custom_sort_order: 2
 * [download code as zip file](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch06.zip) 
 * [browse code on github.ucsb.edu](https://github.ucsb.edu/ucsb-cs8/perk2e/tree/master/ch06)
 
+
+* 6.1 Dictionaries
+   * User-Defined Indexes as Motivation for Dictionaries
+   * Dictionary Class Properties
+   * Dictionary Operators
+   * Dictionary Methods
+   * A Dictionary as a Substitute for the Multiway if Statement
+   * Dictionary as a Collection of Counters
+   * tuple Objects Can Be Dictionary Keys
+* 6.2 Sets
+    * Using the set Constructor to Remove Duplicates
+    * set Operators
+    * set Methods          
+* 6.3 Character Encodings and Strings
+    * Character Encodings
+    * ASCII
+    * Unicode
+    * UTF-8 Encoding for Unicode Characters
+* 6.4 Module random
+    * Choosing a Random Integer
+    * Choosing a Random “Real”
+    * Shuffling, Choosing, and Sampling	at Random
+*  Case Study: Games of Chance
+
+
+* Chapter Summary
+* Solutions to Practice Problems
+* Exercises
+* Problems
+
+
+
 </div>
 <div data-role="collapsible" data-collapsed="true" markdown="1">
 
