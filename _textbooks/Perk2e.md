@@ -51,12 +51,50 @@ custom_sort_order: 2
 
 ## Chapter 2. Python Data Types
 
+* 2.1 Expressions, Variables, and Assignments
+   * Algebraic Expressions and Functions
+   * Boolean Expressions and Operators
+   * Variables and Assignments
+   * Variable Names
+* 2.2 Strings
+    * String Operators
+    * Indexing Operator
+* 2.3 Lists and Tuples
+    * List Operators
+    * Lists Are Mutable, Strings Are Not
+    * Tuples, or “ImmutableLists”
+    * List and Tuple Methods
+* 2.4 Objects and Classes
+    * Object Type
+    * Valid Values for Number Types
+    * Operators for Number Type
+    * Creating Objects
+    * Implicit Type Conversions
+    * Explicit Type Conversions
+    * Class Methods and Object-Oriented Programming
+* 2.5 PythonStandardLibrary
+    * Module math
+    * Module fractions
+* CaseStudy: Turtle Graphics
+* Chapter Summary
+* Solutions to Practice Problems
+* Exercises
+
 </div>
 <div data-role="collapsible" data-collapsed="true" markdown="1">
 
 ## Chapter 3. Imperative Programming 
 
 [code](http://higheredbcs.wiley.com/legacy/college/perkovic/1118890949/code/ch03.zip)
+
+* 3.1 Python Programs
+    * Our First Python Program
+    * Python Modules
+    * Built-In Function print()
+    * Interactive Input with input()
+    * Function eval()
+  
+
 
 </div>
 <div data-role="collapsible" data-collapsed="true" markdown="1">
