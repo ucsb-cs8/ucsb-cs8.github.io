@@ -20,6 +20,7 @@ Past offerings of CS8:
 
 * [Spring 2017, Ziad Matni](https://ucsb-cs8-s17.github.io)
 * [Fall 2016, Matt Buoni](https://www.cs.ucsb.edu/~buoni/cs8/)
+* [Summer 2016, Çetin Kaya Koç](http://koclab.cs.ucsb.edu/teaching/cs8/)
 
 </div><!-- about -->
 
