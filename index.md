@@ -20,8 +20,11 @@ Past offerings of CS8:
 
 * [Spring 2017, Ziad Matni](https://ucsb-cs8-s17.github.io)
 * [Spring 2017, Mike Costanzo](https://www.cs.ucsb.edu/~mikec/cs8/)
+* [Winter 2016, Omer Egecioglu] Available to CS Faculty on the ECI systems in  `/cs/archive/class/cs8/2017/winter/cs8/public_html`
 * [Fall 2016, Matt Buoni](https://www.cs.ucsb.edu/~buoni/cs8/)
 * [Summer 2016, Çetin Kaya Koç](http://koclab.cs.ucsb.edu/teaching/cs8/)
+* [Summer 2015, Veronika Strnadova](https://www.cs.ucsb.edu/~veronika/cs8/)
+* [Fall 2015, Çetin Kaya Koç and Emilie Barnard](http://emiliebarnard.com/teaching/cs8fall14/)
 
 </div><!-- about -->
 
