@@ -39,7 +39,52 @@ However, many computer systems may still have Python 2 installed as the "default
 
 Be sure, therefore, that if you are using your own computer, that you install Python 3.x, and bring that up every time you work on Python code.
 
-If you are using a system maintained by someone else, be sure that you know the proper commands to access Python 3 versions of software needed for the course.
+If you are using a system maintained by someone else, be sure that you know the proper commands to access Python 3 versions of software needed for the course.    
 
+* On systems with both, the Python command line is usually accessed with `python3` instead of `python`
+* IDLE is accessed with `idle3` instead of `idle`
+* pip is accessed with `pip3` instead of `pip`
 
+# Checking Python version
 
+Type `python` and `python3` and see what version comes up, e.g.
+
+```
+-bash-4.3$ python
+Python 2.7.11 (default, Sep 29 2016, 13:33:00) 
+[GCC 5.3.1 20160406 (Red Hat 5.3.1-6)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> quit()
+-bash-4.3$ python3
+Python 3.4.3 (default, Aug  9 2016, 15:36:17) 
+[GCC 5.3.1 20160406 (Red Hat 5.3.1-6)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> quit()
+-bash-4.3$ 
+```
+
+# Checking IDLE version
+
+When running IDLE, the version of Python it is built for shows up in the window that pops up, e.g.
+
+```
+Python 2.7.11 (v2.7.11:6d1b6a68f775, Dec  5 2015, 12:54:16) 
+```
+
+vs
+
+```
+Python 3.6.0 (default, Dec 24 2016, 08:01:42) 
+```
+
+# Checking pip version
+
+To check the version of pip, use `pip -V`:
+
+```
+-bash-4.3$ pip -V
+pip 7.1.0 from /usr/lib/python2.7/site-packages (python 2.7)
+-bash-4.3$ pip3 -V
+pip 7.1.0 from /usr/lib/python3.4/site-packages (python 3.4)
+-bash-4.3$ 
+```
