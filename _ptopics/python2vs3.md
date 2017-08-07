@@ -65,7 +65,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 # Checking IDLE version
 
-When running IDLE, the version of Python it is built for shows up in the window that pops up, e.g.
+When running `idle` or `idle3`, the version of Python it is built for shows up in the window that pops up, e.g.
 
 ```
 Python 2.7.11 (v2.7.11:6d1b6a68f775, Dec  5 2015, 12:54:16) 
@@ -79,7 +79,7 @@ Python 3.6.0 (default, Dec 24 2016, 08:01:42)
 
 # Checking pip version
 
-To check the version of pip, use `pip -V`:
+To check the version of pip, use `pip -V` or `pip3 -V`
 
 ```
 -bash-4.3$ pip -V
