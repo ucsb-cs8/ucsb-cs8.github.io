@@ -6,11 +6,15 @@ desc: "Using Python on MacOS"
 # Short version:
 
 * Type `python` or `python3` to bring up Python at a terminal window
-* Be sure you know whether you are using [Python 2 or Python 3](python2vs3/)
+* Be sure you know what version of Python the `python` and/or `python3` command brings up on your system.
+* Be sure you also know the difference between [Python 2 and Python 3](python2vs3/)
+* If you don't have Python 3.6.2 or higher on your Mac, download and install the latest version of Python for MacOS from here: <https://www.python.org/downloads/>
 * To exit the Python prompt (`>>>`) type `quit()` or Control-D (works on both Python&nbsp;2 and Python&nbsp;3)
 * If you have both Python&nbsp;2 and 3 on your machine, for Python&nbsp;3 use:
     * `idle3` instead of `idle`
     * `pip3` instead of `pip`
+
+
     
 # Checking if Python is installed already
 
@@ -52,4 +56,6 @@ If you don't, see installation instructions below.
 
 # Installing Python for MacOS
 
+If you don't have Python 3.6.2 or higher on your Mac, download and install the latest version of Python for MacOS from here: <https://www.python.org/downloads/>
 
+Once you've installed it, you should have either `python`, `idle` and `pip` commands that work for Python 3.6.2 (or else `python3`, `idle3` and `pip3` commands.)
