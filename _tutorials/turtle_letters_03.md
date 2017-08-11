@@ -17,17 +17,8 @@ We are also going to consider something called the "reference point",
 and something called the "bounding box".  The following illustration
 shows this:
 
-[[File:BoundingBox.png|x200px]]
-
-![a](312px-ZeroInBoundingBoxv03.png)
 
 ![a](379px-BoundingBox.png)
-
-![a](379px-ZeroInBoundingBoxVersion01.png)
-
-![a](379px-ZeroInBoundingBoxv02.png)
-
-![a](File-ZeroInBoundingBoxVersion01.png)
 
 
 Now, inside this bounding box, we are going to draw our letter, or number, or symbol.
@@ -42,14 +33,21 @@ Later, if we want to get fancier, we can, but at first, KEEP THINGS SIMPLE.  At 
 
 So, here's a very simple zero.  It's nothing more than a rectangle, really.
 
-[[File:ZeroInBoundingBoxVersion01.png|x200px]]
+
+![a](File-ZeroInBoundingBoxVersion01.png)
+
+
+| Version 1 |
+|-----------|
+| ![a](312px-ZeroInBoundingBoxv01.png) |
+
 
 And the Python code to produce it is very simple.  Note that:
 * We will assume the turtle starts at the reference point, facing right (heading 0), and with the pen down, and...
 * We will leave the turtle facing right (0 degrees) at the lower right corner of the box, with the pen down.
 
-<pre>
-# draw digit zero as an example to show how letters might be drawn.
+```
+# Version 1 of drawing a digit zero, as an example to show how letters might be drawn.
 # P. Conrad for CS8, 10/08/2013
 
 import turtle
@@ -110,9 +108,7 @@ But those zeros don't look much like zeros.  We can do a little better, with jus
 
 Let's try clipping the corners a little to make the zero just a "little bit" rounder, and then give each of the important points a name:
 
-{|
-|[[File:ZeroInBoundingBoxv02.png|x200px]]
-|[[File:ZeroInBoundingBoxv03.png|x200px]]
-|}
-
+| Version 2 | Version 3|
+|-----------|----------|
+| ![a](312px-ZeroInBoundingBoxv02.png) |  ![a](379px-ZeroInBoundingBoxVersion03.png) |
 
