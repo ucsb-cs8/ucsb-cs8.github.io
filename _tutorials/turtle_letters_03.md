@@ -104,3 +104,5 @@ Let's try clipping the corners a little to make the zero just a "little bit" rou
 |-----------|----------|
 | ![a](312px-ZeroInBoundingBoxv02.png) |  ![a](379px-ZeroInBoundingBoxVersion03.png) |
 
+
+{% include turtle_tutorial_table_of_contents.html }
