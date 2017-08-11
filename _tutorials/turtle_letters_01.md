@@ -1,6 +1,6 @@
 ---
 topic: "Turtle Letters: 01"
-desc: "TBD"
+desc: "Draw a T"
 indent: true
 code_repo: https://github.com/ucsb-cs8-m17/Lecture3_0810
 ---
