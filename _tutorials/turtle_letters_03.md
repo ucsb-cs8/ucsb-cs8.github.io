@@ -37,7 +37,7 @@ So, here's a very simple zero.  It's nothing more than a rectangle, really.
 
 | Version 1 |
 |-----------|
-| ![ZeroInBoundingBoxv01](312px-ZeroInBoundingBoxv01.png) |
+| ![ZeroInBoundingBoxv01](379px-ZeroInBoundingBoxVersion01.png) |
 
 
 And the Python code to produce it is very simple.  Note that:
