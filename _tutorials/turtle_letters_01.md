@@ -51,4 +51,4 @@ drawT(50,100)
 
 ```
 
-{% include turtle_tutorial_table_of_contents.html }
+{% include turtle_tutorial_table_of_contents.html %}
