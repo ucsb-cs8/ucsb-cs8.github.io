@@ -26,7 +26,7 @@ always `(0,0)`, but later in a program, our turtle could be anywhere.
     startY = someOlTurtle.ycor()
 ```
 
-Setting `startx` and `starty` to the place the turtle starts out gives us a <em>reference point<em> for our letter.  We'll assume that reference point is at the lower left of the
+Setting `startx` and `starty` to the place the turtle starts out gives us a <em>reference point</em> for our letter.  We'll assume that reference point is at the lower left of the
 letter we want to draw.   So for example, we'll assume that if we want to draw a `A` with a given width and height, that
 it is going to be in a so-called "bounding box", with the reference point at the lower left, as shown in this picture:
 
