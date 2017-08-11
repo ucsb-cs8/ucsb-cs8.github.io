@@ -33,12 +33,11 @@ Later, if we want to get fancier, we can, but at first, KEEP THINGS SIMPLE.  At 
 So, here's a very simple zero.  It's nothing more than a rectangle, really.
 
 
-![ZeroInBoundingBoxVersion01](File-ZeroInBoundingBoxVersion01.png)
 
 
 | Version 1 |
 |-----------|
-| ![a](312px-ZeroInBoundingBoxv01.png) |
+| ![ZeroInBoundingBoxv01](312px-ZeroInBoundingBoxv01.png) |
 
 
 And the Python code to produce it is very simple.  Note that:
