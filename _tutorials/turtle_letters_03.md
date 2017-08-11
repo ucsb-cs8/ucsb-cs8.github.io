@@ -17,7 +17,7 @@ We are also going to consider something called the "reference point",
 and something called the "bounding box".  The following illustration
 shows this:
 
-![a](379px-BoundingBox.png)
+![BoundingBox](379px-BoundingBox.png)
 
 
 Now, inside this bounding box, we are going to draw our letter, or number, or symbol.
@@ -33,7 +33,7 @@ Later, if we want to get fancier, we can, but at first, KEEP THINGS SIMPLE.  At 
 So, here's a very simple zero.  It's nothing more than a rectangle, really.
 
 
-![a](File-ZeroInBoundingBoxVersion01.png)
+![ZeroInBoundingBoxVersion01](File-ZeroInBoundingBoxVersion01.png)
 
 
 | Version 1 |
@@ -102,7 +102,7 @@ Let's try clipping the corners a little to make the zero just a "little bit" rou
 
 | Version 2 | Version 3|
 |-----------|----------|
-| ![a](312px-ZeroInBoundingBoxv02.png) |  ![a](379px-ZeroInBoundingBoxVersion03.png) |
+| ![ZeroInBoundingBoxv02](312px-ZeroInBoundingBoxv02.png) |  ![ZeroInBoundingBoxVersion03](379px-ZeroInBoundingBoxVersion03.png) |
 
 
 {% include turtle_tutorial_table_of_contents.html %}
