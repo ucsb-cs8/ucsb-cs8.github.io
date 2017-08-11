@@ -26,6 +26,15 @@ A few hints in general about Turtle Graphics:
    chris.shape("turtle")
    ```
 
+3. To move the turtle someplace without leaving a trail, pick up the pen, use `goto` to move,
+   then put the pen down again.  For example, to get to `(25,50)` without leaving a trail, for a
+   a turtle referred to as `chris`, you can do this:
+
+   ```
+   chris.up()
+   chris.goto(25,50)
+   chris.down()
+   ```
 
 <style>
 div.tutorial-table * table { border-collapse: collapse; }
