@@ -30,7 +30,7 @@ Setting `startx` and `starty` to the place the turtle starts out gives us a <em>
 letter we want to draw.   So for example, we'll assume that if we want to draw a `A` with a given width and height, that
 it is going to be in a so-called "bounding box", with the reference point at the lower left, as shown in this picture:
 
-![A in bounding box](A_in_bounding_box.png)
+![A in bounding box](A_in_Bounding_Box_Turtle_Graphics.png)
 
 We can then compute the vertical and horizontal distances to the various points that make up the lines that we'll use to draw the A, as shown here:
 
