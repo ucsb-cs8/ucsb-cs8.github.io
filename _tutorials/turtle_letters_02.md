@@ -48,7 +48,7 @@ it is going to be in a so-called "bounding box", with the reference point at the
 
 | A in bounding box with distances |
 |----------------------------------|
-| ![A in bounding box with distances](A_in_bounding_box_with_distances_400.png) |
+| ![A in bounding box with distances](A_in_Bounding_Box_with_distances_400.png) |
 
 </div>
 
@@ -63,7 +63,7 @@ We can then compute the vertical and horizontal distances to the various points 
 
 | A in bounding box with points |
 |----------------------------------|
-| ![A in bounding box with points](A_in_bounding_box_with_points_400.png) |
+| ![A in bounding box with points](A_in_Bounding_Box_with_points_400.png) |
 
 We can then label all the points as shown in the box at right labelled "A in bounding box with points".
 
