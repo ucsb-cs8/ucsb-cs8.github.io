@@ -11,4 +11,4 @@ code_repo: https://github.com/ucsb-cs8-m17/Lecture3_0810
 TBD
 
 
-{% include turtle_tutorial_table_of_contents.html }
+{% include turtle_tutorial_table_of_contents.html %}
