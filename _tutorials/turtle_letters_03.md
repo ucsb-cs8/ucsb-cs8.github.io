@@ -1,13 +1,13 @@
 ---
 topic: "Turtle Letters: 02"
-desc: "The bounding box, reference point, and Drawing an O (letter O as in Oscar, or zero as in 2000)"
+desc: "The bounding box, reference point, and Drawing an O (or a 0)"
 indent: true
 code_repo: https://github.com/ucsb-cs8-m17/Lecture3_0810
 ---
 
 {% include turtle_letters_header.html %}
 
-# The letter `O` as in `Oscar`, or zero as in `2000`
+# The letter `O` (as in `Oscar`), or `0` (zero as in `2000`)
 
 For any letter or number we draw, if we want to be able to combine it
 with other letters and numbers, we are going to have to consider it to
@@ -17,13 +17,12 @@ We are also going to consider something called the "reference point",
 and something called the "bounding box".  The following illustration
 shows this:
 
-
 ![a](379px-BoundingBox.png)
 
 
 Now, inside this bounding box, we are going to draw our letter, or number, or symbol.
 
-Let's consider a zero..
+Let's consider a zero (or an O).
 
 There are a number of ways to draw a zero, and at first we want to KEEP THINGS SIMPLE.
 
