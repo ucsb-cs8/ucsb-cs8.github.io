@@ -52,7 +52,9 @@ And the Python code to produce it is very simple.  Note that:
 
 import turtle
 
-def drawZero(aTurtle,width,height):
+aTurtle = turtle.Turtle()
+
+def drawZero(width,height):
     """
     Draw the digit zero.  Assumes aTurtle starts pointing right,
     pen down
@@ -78,24 +80,15 @@ def drawZero(aTurtle,width,height):
 
     aTurtle.up(); aTurtle.forward(width); aTurtle.down()
 
-def go():
-    """
-    Try out a few zeros.  Assumes we've already got a turtle named Fred.
-    """
-    drawZero(fred,30,60)
+drawZero(30,60)
 
-    fred.up()
-    fred.forward(20)
-    fred.down()
+aTurtle.up()
+aTurtle.forward(20)
+aTurtle.down()
 
-    drawZero(fred,15,45)
+drawZero(15,45)
 
-# This code creates the turtle "Fred" anytime we run this file.
-# It gets executed every time because it is outside all the function definitions
-
-fred = turtle.Turtle()
-    
-</pre>
+```
 
 To run this program, in IDLE, do:
 
