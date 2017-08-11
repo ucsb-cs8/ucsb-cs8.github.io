@@ -29,7 +29,7 @@ startX = someOlTurtle.xcor()
 startY = someOlTurtle.ycor()
 ```
 
-<div style="float:right; width: 450px;" markdown="1">
+<div style="float:right; width: 450px;margin:1em;" markdown="1">
 
 | A in bounding box |
 |-------------------|
@@ -41,9 +41,10 @@ Setting `startx` and `starty` to the place the turtle starts out gives us a <em>
 letter we want to draw.   So for example, we'll assume that if we want to draw a `A` with a given width and height, that
 it is going to be in a so-called "bounding box", with the reference point at the lower left, as shown in the picture at right labelled "A in bounding box".
 
+<div style="clear: both;">
+</div>
 
-
-<div style="clear:both; float:right; width: 450px;" markdown="1">
+<div style="float:right; width: 450px; margin:1em;" markdown="1">
 
 | A in bounding box with distances |
 |----------------------------------|
@@ -54,9 +55,11 @@ it is going to be in a so-called "bounding box", with the reference point at the
 We can then compute the vertical and horizontal distances to the various points that make up the lines that we'll use to draw the A, as shown here in the box at right labelled "A in bounding box with distances".
 
 
+<div style="clear: both; margin-bottom: 1em;">
+</div>
 
 
-<div style="clear:both; float:right; width: 450px;" markdown="1">
+<div style="float:right; width: 450px; margin: 1em;"  markdown="1">
 
 | A in bounding box with points |
 |----------------------------------|
@@ -64,6 +67,12 @@ We can then compute the vertical and horizontal distances to the various points 
 
 We can then label all the points as shown in the box at right labelled "A in bounding box with points".
 
+</div>
+
+It's helpful to give the x and y coordinates of each of the points a name,
+as shown in the diagram "A in bounding box with points".
+
+<div style="clear: both;">
 </div>
 
 By putting that altogether, we can, at last erite Python code to calculate the x and y values for those points in terms of the values `startX`, `startY`, `width` and `height`:
