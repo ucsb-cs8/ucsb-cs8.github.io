@@ -17,7 +17,7 @@ We are also going to consider something called the "reference point",
 and something called the "bounding box".  The following illustration
 shows this:
 
-![BoundingBox](379px-BoundingBox.png)
+![BoundingBox](BoundingBox.png)
 
 
 Now, inside this bounding box, we are going to draw our letter, or number, or symbol.
@@ -36,8 +36,8 @@ So, here's a very simple zero.  It's nothing more than a rectangle, really.
 
 
 | Version 1 |
-|-----------|
-| ![ZeroInBoundingBoxv01](379px-ZeroInBoundingBoxVersion01.png) |
+|-----------|------------|
+| ![01](01.png) |
 
 
 And the Python code to produce it is very simple.  Note that:
@@ -101,7 +101,7 @@ Let's try clipping the corners a little to make the zero just a "little bit" rou
 
 | Version 2 | Version 3|
 |-----------|----------|
-| ![ZeroInBoundingBoxv02](312px-ZeroInBoundingBoxv02.png) |  ![ZeroInBoundingBoxVersion03](379px-ZeroInBoundingBoxVersion03.png) |
+| ![02](02.png) |  ![03](03.png) |
 
 
 {% include turtle_tutorial_table_of_contents.html %}
