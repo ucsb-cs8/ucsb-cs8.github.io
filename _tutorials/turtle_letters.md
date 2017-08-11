@@ -12,6 +12,5 @@ div.tutorial-table * table * th { border: 1px solid black; padding: 4px; }
 div.tutorial-table * table * td { border: 1px solid black; padding: 4px; }
 </style>
 
-{% include tutorial_table_of_contents.html %}
-
+{% include turtle_tutorial_table_of_contents.html }
 
