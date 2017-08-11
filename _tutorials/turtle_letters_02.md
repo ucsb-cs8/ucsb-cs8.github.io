@@ -5,6 +5,9 @@ indent: true
 code_repo: https://github.com/ucsb-cs8-m17/Lecture3_0810
 ---
 
+<div style="display:none;">https://ucsb-cs8.github.io/tutorials/turtle_letters_02/
+</div>
+
 {% include turtle_letters_header.html %}
 
 
