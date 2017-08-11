@@ -1,5 +1,5 @@
 ---
-topic: "Turtle Letters: 02"
+topic: "Turtle Letters: 03"
 desc: "The bounding box, reference point, and Drawing an O (or a 0)"
 indent: true
 code_repo: https://github.com/ucsb-cs8-m17/Lecture3_0810
