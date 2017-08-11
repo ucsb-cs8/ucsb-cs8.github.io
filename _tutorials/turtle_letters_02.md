@@ -22,15 +22,21 @@ The following code can then be used to determine the current location of someOlT
 always `(0,0)`, but later in a program, our turtle could be anywhere.   
 
 ```
-    startX = someOlTurtle.xcor()
-    startY = someOlTurtle.ycor()
+startX = someOlTurtle.xcor()
+startY = someOlTurtle.ycor()
 ```
 
 Setting `startx` and `starty` to the place the turtle starts out gives us a <em>reference point</em> for our letter.  We'll assume that reference point is at the lower left of the
 letter we want to draw.   So for example, we'll assume that if we want to draw a `A` with a given width and height, that
 it is going to be in a so-called "bounding box", with the reference point at the lower left, as shown in this picture:
 
-![A in bounding box](A_in_Bounding_Box_Turtle_Graphics.png)
+<div style="float:right; width: 300px;" markdown="1">
+
+| A in bounding box |
+|-------------------|
+|  ![A in bounding box](A_in_Bounding_Box_Turtle_Graphics.png) |
+
+</div>
 
 We can then compute the vertical and horizontal distances to the various points that make up the lines that we'll use to draw the A, as shown here:
 
@@ -43,17 +49,17 @@ We can then label all the points as shown here:
 Which finally allows us to write Python code to calculate the x and y values for those points in terms of the values `startX`, `startY`, `width` and `height`:
 
 ```
-    topAX = startX + (width/2)
-    topAY = startY + height
+topAX = startX + (width/2)
+topAY = startY + height
 
-    bottomRightX = startX + width
-    bottomRightY = startY
+bottomRightX = startX + width
+bottomRightY = startY
     
-    barLeftX = startX + width/4
-    barLeftY = startY + height/2
+barLeftX = startX + width/4
+barLeftY = startY + height/2
 
-    barRightX = startX + (width/4) + (width/2)
-    barRightY = startY + height/2
+barRightX = startX + (width/4) + (width/2)
+barRightY = startY + height/2
 ```
 
 
