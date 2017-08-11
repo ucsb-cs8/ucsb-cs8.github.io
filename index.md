@@ -68,3 +68,12 @@ Past offerings of CS8:
   </ul>
 </div>
 
+<div id="tutorials" data-role="collapsible" data-collapsed="false">
+  <h2>Tutorials</h2>
+  <ul>
+   {% for t in site.tutorials %}
+     <li {% if t.indent %} class="indent" {% endif %} ><a href="{{t.url}}">{{ t.topic }}</a>&mdash;{{t.desc}}</li>
+   {% endfor %}
+  </ul>
+</div>
+

@@ -1,0 +1,39 @@
+{% assign get_prev_link = true %}
+{% assign get_next_link = false %}
+
+{% for tutorial in site.tutorials %}
+{% if tutorial.url == page.url %}
+{% assign get_prev_link = false %}
+{% assign get_next_link = true %}
+{% elsif get_next_link == true %}
+{% assign get_next_link = false %}
+{% assign next_link = tutorial.url %}
+{% assign next_title = tutorial.title %}
+{% elsif get_prev_link == true %}
+{% assign prev_link = tutorial.url %}
+{% assign prev_title = tutorial.title %}
+{% endif %}
+{% endfor %}
+
+
+<table class="prev-next-links">
+  <tr>
+    {% if prev_link %}
+     <td>Previous</td>
+    {% endif %}
+    <td >&nbsp;</td>
+    {% if next_link %}
+      <td>Next</td>
+    {% endif %}
+  </tr>
+  <tr>
+    {% if prev_link %}
+      <td><a href="{{prev_link}}">{{prev_title}}</a></td>    
+    {% endif %}
+    <td >{{page.title}}</td>    
+    {% if next_link %}
+      <td><a href="{{next_link}}">{{next_title}}</a></td>    
+    {% endif %}
+  </tr>
+</table>
+

@@ -18,6 +18,11 @@ exclude: ['vendor', 'setup.sh', 'jekyll.sh']
 timezone: America/Los_Angeles
 
 collections:
+
+  tutorials:
+    output: true
+    permalink: /tutorials/:path/
+
   topics:
     output: true
     permalink: /topics/:path/

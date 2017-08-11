@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  {% include head.html %} 
+  <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
+  </head>
+  <body id="page-top">
+    <div id="container" data-role="page">
+    {% include nav.html %}
+    <div id="content"  class="ui-content">
+      {% include tutorial_next_prev_links.html %}
+      
+    <h1>{{ page.topic}}</h1>
+    <p class="topic-summary">{{ page.desc }}</p>
+      {% if page.topic_index_top and page.category_prefix %}
+        {% include tutorial_index.html %}
+      {% endif %}    
+      {{ content }}
+      {% if page.category_prefix %}
+        {% include tutorial_index.html %}
+      {% endif %}    
+      {% include tutorial_next_prev_links.html %}  
+    </div><!-- content -->
+    {% include footer.html %}
+    </div><!-- container -->
+  </body>
+</html>

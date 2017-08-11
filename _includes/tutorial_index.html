@@ -1,0 +1,10 @@
+<div data-role="collapsible" data-collapsed="false">
+  <h2>More on {{page.category_prefix}}</h2>
+  <ul>
+   {% for topic in site.tutorials %}
+   {% if topic.topic contains {{page.category_prefix}} or topic.topic contains {{page.category_prefix_alt}} %} 
+           <li><a href="{{topic.url}}">{{ topic.topic }}</a>&mdash;{{topic.desc}}</li>
+       {% endif %}
+   {% endfor %}
+  </ul>
+</div>
