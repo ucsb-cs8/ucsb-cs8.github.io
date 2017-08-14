@@ -39,7 +39,7 @@ open up graphics windows on your Mac for programs such as `idle`.   If you don't
 
 ## Where do I get it
 
-Go to <https://xquartz.org>, and look for the link to download and install the latest version.   Follow the instructions.
+Go to <http://xquartz.org>, and look for the link to download and install the latest version.   Follow the instructions.
 
 At the end, you will need to logout and log back in to your Mac session (not just your ssh session, 
 but your entire MacOS session.)  To do this, go to the Apple menu, i.e.  at upper left of your desktop
