@@ -3,6 +3,25 @@ topic: "MacOS"
 desc: "Using Python on MacOS"
 ---
 
+# Accessing CSIL from MacOS
+
+To access CSIL from MacOS, you can use the Terminal command, and type the following, replacing `cgaucho` with your ECI/CSIL username, and `csil-12` with any CSIL hostname from `csil-01 through csil-48`:
+
+```
+ssh -X cgaucho@csil-12.cs.ucsb.edu
+```
+
+# What about the `no $DISPLAY environment variable` error?
+
+If you find when you type idle3 to bring up IDLE that you get this message:
+
+```
+no display name and no $DISPLAY environment variable
+```
+
+then you need to [Install XQuartz for MacOS](macos_install_xquartz/), log out, log in, and try again.
+
+
 # Short version:
 
 * Type `python` or `python3` to bring up Python at a terminal window
