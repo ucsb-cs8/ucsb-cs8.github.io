@@ -15,7 +15,22 @@ On this page, there is information on these topics:
 
 # Creating a submit.cs account
 
+
+Before you can make submissions, you will need an account on submit.cs. 
+
+Navigate to <https://submit.cs.ucsb.edu> and click "Create Account", or [follow this link](https://submit.cs.ucsb.edu/form/user).
+
+You must enter your umail email address. Upon submission you will receive an email (to your umail) which will allow you to set a password for your account.
+
+If you do not have a umail address (e.g. extension students), you may contact the submit.cs administrator to request creation of an account.    That is also how faculty accounts are created, since faculty do not have umail addresses.
+
 # Joining a class
+
+Once your account is created you will need to join the appropriate class. Login to submit.cs and click the "Join Class" tab. 
+
+Clicking the button for the appropriate class will join to the the class and subsequently allow you to view which projects are available for submission.
+
+If you get a message in submit.cs that you are not authorized to submit a solution for a given project, it may be because you have an incorrect project number, or it may be because you have not yet joined the course for which you are trying to make a submission.
 
 # Joining a pair/group for a class
 
