@@ -95,15 +95,21 @@ print("20 km = ",convert2.kmToMiles(20)," miles")
 
 ```
 
-<pre style="width:20em; float:right">
+<pre style="width:20em"; float:right" markdown="1">
+
+<pre>
 pconrad$ <b>ls</b>
 convert1.py	convert2.py	myProgram.py
 pconrad$ 
 </pre>
 
+<div style="width: 50em;" markdown="1">
+
 Great!  As long as all three files (`convert1.py1`,`convert2.py` and `myProgram.py` are in the same directory, as shown here by the output of the Unix `ls` command at right), we can reuse our functions and not have to duplicate code.
 
-<p style="clear:both;">But there is a problem.    When we run the program, we get an extra line of output we don't want:
+</div>
+
+<div markdown="1" style="clear:both;">But there is a problem.    When we run the program, we get an extra line of output we don't want: </div>
 
 ```
 ======== RESTART: /Users/pconrad/cs8/main_block_example/myProgram.py ========
