@@ -1,9 +1,9 @@
 ---
 topic: 'main blocks'
-desc: 'All about that crazy looking if __name__=="__main__": thing that you see in some Python code'
+desc: 'All about that crazy looking `if __name__=="__main__":` thing that you see in some Python code'
 ---
 
-# Learning about the `__name__=="__main__"` block
+# Learning about the `if __name__=="__main__":` block
 
 In order to make your Python code as reusable as possible, it is considered a good practice in Python to put almost everything except function defintions (`def`s) and `import` statements  inside a special `if`
 statement with the funny looking condition shown in the example below.
