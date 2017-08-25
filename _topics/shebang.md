@@ -9,6 +9,13 @@ The first line of many Python files looks like this:
 #!/usr/bin/env python
 ```
 
+OR to specify python3:
+
+```
+#!/usr/bin/env python3
+```
+
+
 This is called a "shebang" (pronounced "shuh-bang").  The name comes from the fact that the exclamation point (`!`) is sometimes
 read aloud as the word "bang", and the syntax here comes from the Unix Shell, hence "shell-bang", contracted into "shebang".
 
@@ -30,7 +37,7 @@ python hello.py
 But if it has a shebang as its first line:
 
 ```
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 print ("Hello World")
 
