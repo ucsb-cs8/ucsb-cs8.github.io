@@ -88,4 +88,6 @@ This web page gives you an opportunity to practice with converting between the f
 
 <https://www.cs.ucsb.edu/~pconrad/cs8/topics/chmodQuiz1/>
 
+# More on octal file permissions:
 
+* <https://www.centos.org/docs/2/rhl-gsg-en-7.2/s1-navigating-chmodnum.html>
