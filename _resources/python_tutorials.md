@@ -10,7 +10,7 @@ Web sites where you can study Python:
 
 Web sites where you can practice Python coding
 
-* http://codingbat.com/python    Practice problems that are autograded
+* <http://codingbat.com/python>    Practice problems that are autograded
 
 References for Python
 
