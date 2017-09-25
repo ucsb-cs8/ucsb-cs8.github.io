@@ -18,6 +18,7 @@ This site is maintained in this github repo: <https://github.com/ucsb-cs8/ucsb-c
 
 Past offerings of CS8:
 
+* [Summer 2017, Phill Conrad](https://ucsb-cs8-m17.github.io)
 * [Spring 2017, Ziad Matni](https://ucsb-cs8-s17.github.io)
 * [Spring 2017, Mike Costanzo](https://www.cs.ucsb.edu/~mikec/cs8/)
 * [Winter 2016, Omer Egecioglu] Available to CS Faculty on the ECI systems in  `/cs/archive/class/cs8/2017/winter/cs8/public_html`
