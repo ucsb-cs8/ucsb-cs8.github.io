@@ -1,8 +1,8 @@
 ---
 title: "Introduction to Computing Using Python, 2nd Edition (Perkovic)"
 layout: default
-desc: "Required Textbook for Summer 2017, Conrad"
-custom_sort_order: 2
+desc: "Required Textbook for Fall 2017, Mirza"
+custom_sort_order: 0
 ---
 
 [Student Companion Site](http://bcs.wiley.com/he-bcs/Books?action=index&itemId=1118890949&bcsId=9532)
