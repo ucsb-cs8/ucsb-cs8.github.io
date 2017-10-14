@@ -18,8 +18,8 @@ Since this page is about vim, we won't mention emacs further.
 
 # Quick Reference Guides 
 
-* Vim wiki http://vim.wikia.com/wiki/Category:Getting_started
-* Vim tutorial http://vim.wikia.com/wiki/Tutorial
+* Vim wiki <http://vim.wikia.com/wiki/Category:Getting_started>
+* Vim tutorial <http://vim.wikia.com/wiki/Tutorial>
 
 # How To
 
