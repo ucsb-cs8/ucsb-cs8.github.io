@@ -8,6 +8,12 @@ desc: 'All about that crazy looking `if __name__=="__main__":` thing that you se
 In order to make your Python code as reusable as possible, it is considered a good practice in Python to put almost everything except function defintions (`def`s) and `import` statements  inside a special `if`
 statement with the funny looking condition shown in the example below.
 
+NOTE:
+* `__name__` is TWO underscore characters in front of `name` and after `name`
+* Same with `"__main__"` 
+
+(On some keyboards, you may see a tiny blank between the underscores, while other other keyboards you don't see that.  It shouldn't matter.)
+
 ```
 
 if __name__=="__main__":
