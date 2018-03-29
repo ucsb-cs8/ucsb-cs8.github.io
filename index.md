@@ -18,9 +18,9 @@ This site is maintained in this github repo: <https://github.com/ucsb-cs8/ucsb-c
 
 Past offerings of CS8:
 
-* [Winter 2018, Ziad Matni](https://ucsb-cs8-w18-matni.github.io))
-* [Winter 2018, Richert Wang](https://ucsb-cs8-w18-wang.github.io))
-* [Fall 2017, Diba Mirza](https://ucsb-cs8-f17.github.io))
+* [Winter 2018, Ziad Matni](https://ucsb-cs8-w18-matni.github.io)
+* [Winter 2018, Richert Wang](https://ucsb-cs8-w18-wang.github.io)
+* [Fall 2017, Diba Mirza](https://ucsb-cs8-f17.github.io)
 * [Summer 2017, Phill Conrad](https://ucsb-cs8-m17.github.io)
 * [Spring 2017, Ziad Matni](https://ucsb-cs8-s17.github.io)
 * [Spring 2017, Mike Costanzo](https://www.cs.ucsb.edu/~mikec/cs8/)
