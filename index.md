@@ -29,6 +29,7 @@ Past offerings of CS8:
 * [Summer 2016, Çetin Kaya Koç](http://koclab.cs.ucsb.edu/teaching/cs8/)
 * [Summer 2015, Veronika Strnadova](https://www.cs.ucsb.edu/~veronika/cs8/)
 * [Fall 2015, Çetin Kaya Koç and Emilie Barnard](http://emiliebarnard.com/teaching/cs8fall14/)
+* [Summer 2009, Summer 2010, Fall 2010, Fall 2013](https://www.cs.ucsb.edu/~pconrad/cs8/)
 
 </div><!-- about -->
 
