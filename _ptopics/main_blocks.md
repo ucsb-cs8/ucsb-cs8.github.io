@@ -101,7 +101,7 @@ print("20 km = ",convert2.kmToMiles(20)," miles")
 
 ```
 
-<pre style="width:20em; float:right" markdown="1">
+<pre style="width:50em; float:right; font-size: 90%;" markdown="1">
 pconrad$ <b>ls</b>
 convert1.py	convert2.py	myProgram.py
 pconrad$ 
