@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Computing Using Python, 2nd Edition (Perkovic)"
 layout: default
-desc: "Required Textbook for Fall 2017, Mirza"
+desc: "Required Textbook for CS8 Spring 2018, Conrad"
 custom_sort_order: 0
 ---
 
