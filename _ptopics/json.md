@@ -1,5 +1,5 @@
 ---
-topic: "JSON"
+topic: "json"
 desc: "Access JSON data in Python"
 ---
 
