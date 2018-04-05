@@ -252,5 +252,5 @@ etc...
 
 The point is that data in JSON format can be easily converted into a Python dictionary.
 
-That topic is explored on another page: [JSON](/topics/JSON/)
+That topic is explored on another page: [json](/ptopics/json/)
 
