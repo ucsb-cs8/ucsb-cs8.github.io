@@ -2,15 +2,20 @@
 title: UCSB CS8
 ---
 
-# Introduction to Computer Science
+<h1>UCSB CMPSC 8: Introduction to Computer Science</h1>
+<h2>(also: CMPTGCS 20: Introduction to CS for non-majors)</h2>
 
 <div id="about" data-role="collapsible" data-collapsed="true" markdown="1">
 <h2>About this course</h2>
 
-A course taught in the [Dept. of Computer Science](http://www.cs.ucsb.edu) at
+CMPSC 8 is a course taught in the [Dept. of Computer Science](http://www.cs.ucsb.edu) at
 [UC Santa Barbara](http://www.ucsb.edu).
 
+A course covering many of the same topics, "Introduction to CS for non-majors" is occasionally taught in CCS under the number CMPTGCS 20.
+
 This site is maintained in this github repo: <https://github.com/ucsb-cs8/ucsb-cs8.github.io>.   If you are a CS department faculty member or TA that should have access to this page, contact Phill Conrad to request permission.
+
+# CS8 materials
 
 * [Catalog Description](https://www.cs.ucsb.edu/education/courses/cmpsc-8) including pre-requisites
 * [Older materials from Conrad's 8wiki](https://foo.cs.ucsb.edu/8wiki) site.
