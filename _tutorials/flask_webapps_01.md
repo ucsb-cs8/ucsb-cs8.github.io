@@ -241,7 +241,7 @@ div.nicer-table table * td { padding: 4px; }
 </style>
 
 
-<div class="nicer-table">
+<div class="nicer-table" markdown="1">
 
 | line | explanation  |   
 |------|--------------|
