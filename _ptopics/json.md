@@ -681,4 +681,24 @@ As it turns out, even the first five is too long to effectively use copy/paste t
 >>> 
 ```
 
+# Read json  from file into dict
 
+Source: <https://stackoverflow.com/questions/20199126/reading-json-from-a-file>
+
+```python
+import json
+
+with open('strings.json') as json_data:
+    d = json.load(json_data)
+    print(d)
+```
+
+# Write json from dict to file
+
+Source: <https://stackoverflow.com/questions/12309269/how-do-i-write-json-data-to-a-file>
+
+```
+import json
+with open('data.txt', 'w') as outfile:
+    json.dump(data, outfile)
+``` 
