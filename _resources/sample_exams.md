@@ -25,4 +25,5 @@ Ok, now the exams:
 |---------|-----------|-------------|-------------|-------|
 | S16     | Conrad    | [E01](http://www.cs.ucsb.edu/~pconrad/cs8/14S/exams/E01/pdf/014.pdf) | [E02](http://www.cs.ucsb.edu/~pconrad/cs8/14S/exams/E02/pdf/0.pdf) | Not available |
 
+
 </div>
