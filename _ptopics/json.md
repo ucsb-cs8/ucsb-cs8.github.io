@@ -3,7 +3,31 @@ topic: "json"
 desc: "Access JSON data in Python"
 ---
 
-# Python: Accessing JSON Data 
+# Quick overview (more detail later in file)
+
+## Read json  from file into dict
+
+Source: <https://stackoverflow.com/questions/20199126/reading-json-from-a-file>
+
+```python
+import json
+
+with open('strings.json') as json_data:
+    d = json.load(json_data)
+    print(d)
+```
+
+## Write json from dict to file
+
+Source: <https://stackoverflow.com/questions/12309269/how-do-i-write-json-data-to-a-file>
+
+```
+import json
+with open('data.txt', 'w') as outfile:
+    json.dump(data, outfile)
+``` 
+
+# Python: More detail about accessing JSON Data 
 
 There is a notation called *JSON*, which stands for *JavaScript Object Notation*.  Although this notation
 comes from the language *JavaScript*, it is used across many languages other than JavaScript, including Python.
@@ -681,24 +705,3 @@ As it turns out, even the first five is too long to effectively use copy/paste t
 >>> 
 ```
 
-# Read json  from file into dict
-
-Source: <https://stackoverflow.com/questions/20199126/reading-json-from-a-file>
-
-```python
-import json
-
-with open('strings.json') as json_data:
-    d = json.load(json_data)
-    print(d)
-```
-
-# Write json from dict to file
-
-Source: <https://stackoverflow.com/questions/12309269/how-do-i-write-json-data-to-a-file>
-
-```
-import json
-with open('data.txt', 'w') as outfile:
-    json.dump(data, outfile)
-``` 
