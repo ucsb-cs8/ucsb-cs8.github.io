@@ -38,6 +38,20 @@ KeyError: 'ten'
 >>> 
 ```
 
+
+We can look up the keys in a dictionary by typing `.keys()` after the variable that refers to the dictionary.  For example, see what `en_to_es.keys()` returns in the example below.
+
+
+We can put `list (   )` around that expression to make sure the result comes back as a Python list.
+
+
+```
+>>> en_to_es = { 'one' : 'uno', 'two' : 'dos', 'three' : 'tres' }
+>>> en_to_es.keys()
+dict_keys(['three', 'two', 'one'])
+>>> list(en_to_es.keys())
+```
+
 # Handling `KeyError` with `try`/`except`
 
 You can use a so-called `try`/`except` block to write custom code that looks for the
