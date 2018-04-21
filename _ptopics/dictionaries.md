@@ -38,6 +38,7 @@ KeyError: 'ten'
 >>> 
 ```
 
+# Listing the keys in a dictionary
 
 We can look up the keys in a dictionary by typing `.keys()` after the variable that refers to the dictionary.  For example, see what `en_to_es.keys()` returns in the example below.
 
@@ -50,6 +51,15 @@ We can put `list (   )` around that expression to make sure the result comes bac
 >>> en_to_es.keys()
 dict_keys(['three', 'two', 'one'])
 >>> list(en_to_es.keys())
+```
+
+# Adding new values to a dictionary
+
+Dictionaries are *mutable*, meaning they can be changed.  We can add new key/value pairs to an existing dictionary using assignment staements such as this one:
+
+```
+en_to_es['four'] = 'quatro'
+en_to_es['five'] = 'cinco'
 ```
 
 # Handling `KeyError` with `try`/`except`
