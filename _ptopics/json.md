@@ -5,7 +5,7 @@ desc: "Access JSON data in Python"
 
 # Quick overview (more detail later in file)
 
-## Read json  from file into dict
+## Read json  from file into Python object (dict or list)
 
 Source: <https://stackoverflow.com/questions/20199126/reading-json-from-a-file>
 
@@ -15,6 +15,25 @@ import json
 with open('strings.json') as json_data:
     d = json.load(json_data)
     print(d)
+```
+
+## Read json data from url into Python object (dict or list)
+
+```
+import requests
+import json
+
+def getJsonFromURL(url):
+
+    # requests.get(url) goes and fetches a web page (like a browser does)                                                   
+    # httpReponse is an object representing the response from the web                                                
+
+    httpResponse = requests.get(url)
+
+    # httpResponse.text is the text from the webpage                                                                        
+    # jsonData is a Python dictionary or list converted from the JSON                                                       
+    jsonData = json.loads(httpResponse.text)
+    return jsonData
 ```
 
 ## Write json from dict to file
