@@ -20,5 +20,5 @@ Note that, at least as of right now, as far as I know, if you are a current UC S
 
 # Java
 
-* THe Coursera sequence <https://www.coursera.org/specializations/java-object-oriented> created by a team at UC San Diego.
+* The Coursera sequence <https://www.coursera.org/specializations/java-object-oriented> created by a team at UC San Diego.   This series covers much of the same ground as the CS16/CS24/CS32/CS48/CS56 sequence, but in Java rather than in C++.
 
