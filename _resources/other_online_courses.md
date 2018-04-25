@@ -14,7 +14,9 @@ Here is that list.
 
 # C++
 
-* The CS 10 V and CS 12 V series from UC Riverside, available through UC Online.
+* The CS 10 V and CS 12 V series from UC Riverside, available through [UC Online](http://www.uconline.edu/).   Search the course catalog for those.   It is my understanding that those courses cover, more or less, the same material as CMPSC&nbsp;16 and CMPSC&nbsp;24.
+
+Note that, at least as of right now, as far as I know, if you are a current UC Santa Barbara student enrolled in at least 12 units on your home campus, you can typically register for UC Online courses (when space is available) at no extra cost (that is, the cost is included in your UC tuition already) by using "cross-campus enrollment".  Your experience may vary, but do look into it if you think those courses may be a good fit for you.
 
 # Java
 
