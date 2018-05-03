@@ -28,9 +28,9 @@ There are at least two ways to resolve this.
    fred.forward(100)
    fred.getscreen().exitonclick()
    ```
-(2) When running the Python code, use `python3 -i myprogram.py` instead of `python3 myprogram.py`.   
+(2) When running the Python code at the Unix shell prompt, use `python3 -i myprogram.py` instead of `python3 myprogram.py`.   
    ```
-   python3 -i myprogram.py
+   $ python3 -i myprogram.py
    >>>
    ```
    Python will run your program, then drop you to a `>>>` prompt where you can type additional commands.
