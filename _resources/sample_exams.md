@@ -23,7 +23,8 @@ Ok, now the exams:
 
 | Quarter | Instructor| Midterm E01 | Midterm E02 | Final |
 |---------|-----------|-------------|-------------|-------|
-| S16     | Conrad    | [E01](http://www.cs.ucsb.edu/~pconrad/cs8/14S/exams/E01/pdf/014.pdf) | [E02](http://www.cs.ucsb.edu/~pconrad/cs8/14S/exams/E02/pdf/0.pdf) | Not available |
+| S18     | Conrad    | [E01](https://ucsb-cs8-s18.github.io/exam/e01/) | (future) | (future) |
+| M17     | Conrad    | [E01](https://ucsb-cs8-m17.github.io/exam/e01/) | (no 2nd midterm was given) | [E03](https://ucsb-cs8-m17.github.io/exam/e03/) |
+| S14     | Conrad    | [E01](http://www.cs.ucsb.edu/~pconrad/cs8/14S/exams/E01/pdf/014.pdf) | [E02](http://www.cs.ucsb.edu/~pconrad/cs8/14S/exams/E02/pdf/0.pdf) | Not available |
 
 
-</div>
