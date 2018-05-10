@@ -26,5 +26,7 @@ Ok, now the exams:
 | S18     | Conrad    | [E01](https://ucsb-cs8-s18.github.io/exam/e01/) | (future) | (future) |
 | M17     | Conrad    | [E01](https://ucsb-cs8-m17.github.io/exam/e01/) | (no 2nd midterm was given) | [E02](https://ucsb-cs8-m17.github.io/exam/e02/) |
 | S14     | Conrad    | [E01](http://www.cs.ucsb.edu/~pconrad/cs8/14S/exams/E01/pdf/014.pdf) | [E02](http://www.cs.ucsb.edu/~pconrad/cs8/14S/exams/E02/pdf/0.pdf) | Not available |
-
+| F10     | Conrad    | [E01](http://www.cs.ucsb.edu/~pconrad/cs8/10F/exams/E01/) | [E02](http://www.cs.ucsb.edu/~pconrad/cs8/10F/exams/E02/actualExam/) | [E03](http://www.cs.ucsb.edu/~pconrad/cs8/10F/exams/E03/actualExam/) |
+| M10     | Conrad    | [E01](http://www.cs.ucsb.edu/~pconrad/cs8/10M/exams/E01/) |[E02](http://www.cs.ucsb.edu/~pconrad/cs8/10M/exams/E02/actualExam/) | [E03](http://www.cs.ucsb.edu/~pconrad/cs8/10M/exams/E03/actualExam/) |
+| M09     | Conrad    | [E01](http://www.cs.ucsb.edu/~pconrad/cs8/09M/exams/E01/) | [E02](http://www.cs.ucsb.edu/~pconrad/cs8/09M/exams/E02/) | [E03](http://www.cs.ucsb.edu/~pconrad/cs8/09M/exams/E03/) |
 
