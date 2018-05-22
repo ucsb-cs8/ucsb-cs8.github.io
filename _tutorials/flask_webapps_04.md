@@ -47,7 +47,54 @@ To deploy on Heroku, you need two additional files:
 
 Here's what goes in those files:
 
+## Step 4a: Creating a `Procfile`
 
+We need a file called Procfile in our git repo.  This file tells Heroku what to do with our github repo when we push it to github.  It should contain the following:
+
+```
+web: gunicorn hello:app --log-file=-
+```
+
+The part of this line that reads  `hello:app` assumes that the main python code for your web app is in `hello.py`, and that the variable `app` is the one that appears in the line of code `app = Flask(__name__)`.
+
+If that is not the case, you may need to adjust either `hello` or `app `as needed.
+
+Now that we have that file, you will want to do these commands to commit this file to our github repo.
+
+```
+git add Procfile
+git commit -m "Added Procfile needed by Heroku"
+git push origin master
+```
+
+## Step 4b: Creating `requirements.txt`
+
+We also need a file called  `requirements.txt` which is a list of the Python modules that are needed for our Heroku flask application.   
+
+This file will list all of the Python modules that we may have installed using 
+`pip install --user blah`, including `flask`, and anything else that `flask` might have required.
+
+Note that before you do the next step, you should do the following `pip install` command if you haven't already.  While this next line isn't necessarily needed for running Flask applications locally, it is needed for Heroku.
+
+```
+pip install --user gunicorn
+```
+
+We  <span style="font-weight:bold; font-size: 110%; color:red;">can</span> create the file `requirements.txt` with this command:
+
+```
+pip freeze > requirements.txt
+```
+
+We now have a list of packages our program needs to run. 
+
+Go ahead and save that file, and now lets push that to github as well:
+
+```
+git add requirements.txt
+git commit -m "Added list of Python modules needed by Heroku"
+git push origin master
+```
 
 # Step 5: Create Heroku Webapp
 
