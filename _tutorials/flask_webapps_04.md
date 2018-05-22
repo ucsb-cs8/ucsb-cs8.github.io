@@ -20,19 +20,34 @@ COMING SOON
 
 # Step 1: Create a free Heroku account
 
-TBD
+Navigate to [https://www.heroku.com/](https://www.heroku.com/) and create a free account. 
+
+* As of this writing (May 2018), NO CREDIT CARD was needed to create a free tier account that can create up to five webapps.
+* If that changes, please let me know.
+* You should not need to enter a credit card for any of the activities in this tutorial or the ones that follow.
 
 # Step 2:  Create a free Github account (it not already done)
 
-TBD
+If you don't already have a github.com account, create one now at [https://github.com](https://github.com).  If you do have one,log into the [https://github.com](https://github.com) web site.
 
 # Step 3: Put your existing Flask web app in a Github repo
 
-TBD
+If you don't already have your existing flask web app in a public github repo, upload it to a github repo.
+
+The steps to do that are covered at the series of github lessons that can be found here: [https://ucsb-cs8.github.io/topics/git/](https://ucsb-cs8.github.io/topics/git/)
+
+You need the Flask webapp in a public github repo before you can deploy it to Heroku.
 
 # Step 4: Add files needed for Heroku
 
-TBD
+To deploy on Heroku, you need two additional files:
+
+* `Procfile`
+* `requirements.txt`
+
+Here's what goes in those files:
+
+
 
 # Step 5: Create Heroku Webapp
 
