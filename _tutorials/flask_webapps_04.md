@@ -8,6 +8,43 @@ indent: true
 
 COMING SOON
 
+# Outline
+
+* Create a free Heroku account
+* Create a free Github account (it not already done)
+* Put your existing Flask web app in a Github repo
+* Add files needed for Heroku
+* Create Heroku Webapp
+* Link Heroku webapp with Github repo
+* See Heroku webapp live
+
+# Step 1: Create a free Heroku account
+
+TBD
+
+# Step 2:  Create a free Github account (it not already done)
+
+TBD
+
+# Step 3: Put your existing Flask web app in a Github repo
+
+TBD
+
+# Step 4: Add files needed for Heroku
+
+TBD
+
+# Step 5: Create Heroku Webapp
+
+TBD
+
+# Step 6: Link Heroku webapp with Github repo
+
+TBD
+
+# Step 7: See Heroku webapp live
+TBD
+
 # The next lesson
 
 The next lesson is [Web Apps Intro (part 5)](/tutorials/flask_webapps_05/)
