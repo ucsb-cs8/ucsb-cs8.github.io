@@ -116,12 +116,14 @@ An even more concise way to say this: when "distributing" not inside the parenth
 It may seem at first as if this transformation makes things more complicated.  For example:
 
 | Original Expression | New Expresssion | 
+|---------------------|-----------------|
 | `not ( a == 0 or discriminant < 0 )` | `(not a==0) and (not discriminant < 0)` |  
 | `not (x >= 0 and y >= 0)` | `(not x >= 0) or (not y >= 0)`  |
 
 However, if we combine this with the rule that applying not to a relational expression simply changes the relational operator to it's opposite, then we can simplify further:
 
 | Original Expression | New Expresssion | Even Simpler | 
+|---------------------|-----------------|-----------------|
 | `not ( a == 0 or discriminant < 0 )` | `(not a==0) and (not discriminant < 0)` | `a!=0 and discriminant >= 0` |  
 | `not (x >= 0 and y >= 0)` | `(not x >= 0) or (not y >= 0)`  | `x < 0 and y > 0 `|
 
