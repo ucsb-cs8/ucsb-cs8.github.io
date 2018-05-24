@@ -45,8 +45,8 @@ If we combine two boolean expressions with `or`, they both must be true for the 
 Examples:
 
 * `3>8 or 5>8` evaluates to `False` because both `3>8` and `5>8` are False
-* `3<5 or 5>8` evaluates to `True` because `3>5` is `True`
-* `3>8 or 5<8` evaluates to `True` because `5>8` is `True`
+* `3<5 or 5>8` evaluates to `True` because `3<5` is `True`
+* `3>8 or 5<8` evaluates to `True` because `5<8` is `True`
 * `3<5 or 5<8` evalutes to `True` because both sides of the `or` are `True`
 
 # The six relational operators
@@ -86,14 +86,14 @@ Suppose we have a boolean expression with a single relational operator.  Placing
 | `a < b`  | `not a < b` | `a >= b` |
 | `a <= b` | `not a <= b` | `a > b` |
 | `a > b`  | `not a > b` | `a <= b` |
-| `a >= b` | `not a <>= b` | `a < b` |
+| `a >= b` | `not a >= b` | `a < b` |
 | `a == b`  | `not a == b` | `a != b` |
 | `a != b` | `not a != b` | `a == b` |
 
 There may be isolated cases where the version with `not` might be easier for people reading your code to understand.  However, in most cases, the more concise alternative <em>without</em> the `not` is preferred.
 
 Note the opposite pairs:
-* `<` and '>=` are opposites
+* `<` and `>=` are opposites
 * `>` and `<=` are opposites
 * `==` and `!=` are opposites
 
