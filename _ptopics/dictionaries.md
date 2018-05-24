@@ -1,5 +1,5 @@
 ---
-topic: "Dictionaries"
+topic: "dictionaries"
 desc: "Mappings from keys to values"
 ---
 
