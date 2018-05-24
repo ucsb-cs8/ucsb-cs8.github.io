@@ -55,15 +55,24 @@ There are six relational operators, each of which returns a boolean value:
 
 | Operator | Meaning | Example use <br> that evaluates <br> to `True`  | Example use <br >that  evaluates <br> to `False` |
 |----------|---------|-------------------------------------------------|--------------------------------------------------|
-|  <       | is less than | 4 < 5  | 4 < 4 |
-|  <=      | is less than or equal to | 4 <= 4 | 4 <= 3 |
-|  >       | is greater than | 5 > 4  | 5 > 5 |
-|  >=      | is greater than or equal to | 4 >= 4 | 4 >= 5 |
-|  ==      | is equal to | 4 >= 4 | 4 >= 5 |
-|  !=      | is not equal to | 4 >= 4 | 4 >= 5 |
+|  <       | is less than | 4 < 2 + 3  | 4 < 2 + 2 |
+|  <=      | is less than or equal to | 4 <= 2 + 2 | 4 <= 1 + 2 |
+|  >       | is greater than | 5 > 2 + 2  | 5 > 2 + 3 |
+|  >=      | is greater than or equal to | 4 >= 2 + 2 | 4 >= 2 + 3 |
+|  ==      | is equal to | 4 == 2 + 2 | 4 ==  2 + 3 |
+|  !=      | is not equal to | 4 != 2 + 6 | 4 != 2 + 2 |
 
 # The `not` operator 
 
-The `not` operator changes `True` to `False` and `False` to `True`
+The `not` operator is placed in front of a boolean expression, and changes `True` to `False` and `False` to `True`
 
-
+```
+>>> x = 3 < 4
+>>> x
+True
+>>> not x
+False
+>>> not 4 == 2 + 2
+False
+>>>     
+```
