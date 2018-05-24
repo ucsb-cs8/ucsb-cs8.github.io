@@ -45,8 +45,8 @@ If we combine two boolean expressions with `or`, they both must be true for the 
 Examples:
 
 * `3>8 or 5>8` evaluates to `False` because both `3>8` and `5>8` are False
-* `3<5 or 5>8` evaluates to `False` because `3>5` is `True`
-* `3>8 or 5<8` evaluates to `False` because `5>8` is `True`
+* `3<5 or 5>8` evaluates to `True` because `3>5` is `True`
+* `3>8 or 5<8` evaluates to `True` because `5>8` is `True`
 * `3<5 or 5<8` evalutes to `True` because both sides of the `or` are `True`
 
 # The six relational operators
