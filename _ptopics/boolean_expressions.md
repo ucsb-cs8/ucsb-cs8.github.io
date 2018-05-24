@@ -82,6 +82,7 @@ False
 Suppose we have a boolean expression with a single relational operator.  Placing a not in front of the expression is probably not the best way to change that expression to its opposite.   Here we show six relational expressions with not in front of them, each followed by a more concise expression that means the same thing:
 
 | Original Expression | The opposite | A more concise equivalent |
+|---------------------|-----------------|--------|
 | `a < b`  | `not a < b` | `a >= b` |
 | `a <= b` | `not a <= b` | `a > b` |
 | `a > b`  | `not a > b` | `a <= b` |
