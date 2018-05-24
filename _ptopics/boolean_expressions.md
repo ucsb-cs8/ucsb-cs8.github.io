@@ -29,7 +29,7 @@ True
 >>> 
 ```
 
-# Comnbining booleans with `and` and `or`
+# Combining booleans with `and` and `or`
 
 If we combine two boolean expressions with `and`, they both must be true for the entire expression to be true.  If either or both is `False`, then the whole expression is `False`
 
