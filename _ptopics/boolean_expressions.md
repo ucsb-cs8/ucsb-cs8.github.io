@@ -49,5 +49,21 @@ Examples:
 * `3>8 or 5<8` evaluates to `False` because `5>8` is `True`
 * `3<5 or 5<8` evalutes to `True` because both sides of the `or` are `True`
 
+# The six relational operators
+
+There are six relational operators, each of which returns a boolean value:
+
+| Operator | Meaning | Example use <br> that evaluates <br> to `True`  | Example use <br >that  evaluates <br> to `False` |
+|----------|---------|-------------------------------------------------|--------------------------------------------------|
+|  <       | is less than | 4 < 5  | 4 < 4 |
+|  <=      | is less than or equal to | 4 <= 4 | 4 <= 3 |
+|  >       | is greater than | 5 > 4  | 5 > 5 |
+|  >=      | is greater than or equal to | 4 >= 4 | 4 >= 5 |
+|  ==      | is equal to | 4 >= 4 | 4 >= 5 |
+|  !=      | is not equal to | 4 >= 4 | 4 >= 5 |
+
+# The `not` operator 
+
+The `not` operator changes `True` to `False` and `False` to `True`
 
 
