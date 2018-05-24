@@ -55,12 +55,12 @@ There are six relational operators, each of which returns a boolean value:
 
 | Operator | Meaning | Example use <br> that evaluates <br> to `True`  | Example use <br >that  evaluates <br> to `False` |
 |----------|---------|-------------------------------------------------|--------------------------------------------------|
-|  <       | is less than | 4 < 2 + 3  | 4 < 2 + 2 |
-|  <=      | is less than or equal to | 4 <= 2 + 2 | 4 <= 1 + 2 |
-|  >       | is greater than | 5 > 2 + 2  | 5 > 2 + 3 |
-|  >=      | is greater than or equal to | 4 >= 2 + 2 | 4 >= 2 + 3 |
-|  ==      | is equal to | 4 == 2 + 2 | 4 ==  2 + 3 |
-|  !=      | is not equal to | 4 != 2 + 6 | 4 != 2 + 2 |
+|  <       | is less than | `4 < 2 + 3`  | `4 < 2 + 2` |
+|  <=      | is less than or equal to | `4 <= 2 + 2` | `4 <= 1 + 2` |
+|  >       | is greater than | `5 > 2 + 2`  | `5 > 2 + 3` |
+|  >=      | is greater than or equal to | `4 >= 2 + 2` | `4 >= 2 + 3` |
+|  ==      | is equal to | `4 == 2 + 2` | `4 ==  2 + 3` |
+|  !=      | is not equal to | `4 != 2 + 6` | `4 != 2 + 2` |
 
 # The `not` operator 
 
@@ -76,3 +76,4 @@ False
 False
 >>>     
 ```
+
