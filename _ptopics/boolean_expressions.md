@@ -29,4 +29,25 @@ True
 >>> 
 ```
 
+# Comnbining booleans with `and` and `or`
+
+If we combine two boolean expressions with `and`, they both must be true for the entire expression to be true.  If either or both is `False`, then the whole expression is `False`
+
+Examples:
+
+* `3>8 and 5>8` evaluates to `False` because both `3>8` and `5>8` are False
+* `3<5 and 5>8` evaluates to `False` because `5>8` is `False`
+* `3>8 and 5<8` evaluates to `False` because `3>8` is `False`
+* `3<5 and 5<8` evalutes to `True` because both sides of the `and` are `True`
+
+If we combine two boolean expressions with `or`, they both must be true for the entire expression to be true:
+
+Examples:
+
+* `3>8 or 5>8` evaluates to `False` because both `3>8` and `5>8` are False
+* `3<5 or 5>8` evaluates to `False` because `3>5` is `True`
+* `3>8 or 5<8` evaluates to `False` because `5>8` is `True`
+* `3<5 or 5<8` evalutes to `True` because both sides of the `or` are `True`
+
+
 
