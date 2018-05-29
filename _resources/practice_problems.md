@@ -57,3 +57,10 @@ Problems:
    assert lengthOfEach(["UCSB","UCI","Chico State")==["UCSB","UCI ","Chico State "]
    assert lengthOfEach(["Santa Barbara","Ventura","Oxnard"])==["Santa Barbara ","Ventura ","Oxnard"]
    ```
+# Functions over lists of dictionaries
+
+* Write a function that calculates the GPA of a list of courses, where each course is a dictionary with
+   keys `units`, `grade`, `course`.   Course is the name of the course (e.g. `"CHEM 1A"`, units is an int
+   representing number of units, and grade is a letter grade, e.g. `A`, `A-`, `B+`, etc.
+   
+   
