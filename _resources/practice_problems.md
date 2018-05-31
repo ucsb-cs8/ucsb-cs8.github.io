@@ -54,8 +54,8 @@ Problems:
    string with odd length has an extra space added to the end to make it have even length
    
    ```
-   assert lengthOfEach(["UCSB","UCI","Chico State")==["UCSB","UCI ","Chico State "]
-   assert lengthOfEach(["Santa Barbara","Ventura","Oxnard"])==["Santa Barbara ","Ventura ","Oxnard"]
+   assert makeEvenLength(["UCSB","UCI","Chico State")==["UCSB","UCI ","Chico State "]
+   assert makeEvenLength(["Santa Barbara","Ventura","Oxnard"])==["Santa Barbara ","Ventura ","Oxnard"]
    ```
 # Functions over lists of dictionaries
 
@@ -63,4 +63,7 @@ Problems:
    keys `units`, `grade`, `course`.   Course is the name of the course (e.g. `"CHEM 1A"`, units is an int
    representing number of units, and grade is a letter grade, e.g. `A`, `A-`, `B+`, etc.
    
+   ```
+   courses1=[{},{},{}]
+   ```
    
