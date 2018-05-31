@@ -51,23 +51,9 @@ If you want to treat the different lines of the file as separate lines after tha
 
 That's only a good idea if the file is relatively small.
 
-## Read one line at a time
-
-This code will read every line from an input file and print each one out to the screen:
-
-```
-
-```
-
-This code will read every line from an input file and print each one out to the screen after converting to lowercase:
-
-
-This code will accumulate all of the lines in the file into a list:
-
-This code will count the number of lines in the file:
-
 
 # References
 
 * Perkovic 2nd Edition (textbook), Section 4.3 (p. 107-116)
 * [Python 3.6.5 docs section 7.2 on Input and Output Files](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
+* Examples of reading/writing files: <https://github.com/ucsb-cs8/python-text-files>
