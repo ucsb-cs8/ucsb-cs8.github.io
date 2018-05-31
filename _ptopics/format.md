@@ -16,3 +16,4 @@ To understand what this will print, you can consult any of the following resourc
 
 * Chapter 4, pages 100-105 in the Perkovic 2nd Edition Textbook.
 * This [tutorial from digitalocean on string formatters in Python3](https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3)
+* The [pyformat.info/](https://pyformat.info/) web page, which compares the old and new styles of formatting in Python.
