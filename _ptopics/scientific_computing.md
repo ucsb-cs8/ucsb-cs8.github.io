@@ -14,7 +14,7 @@ investigating further.
 * matplotlib: Plotting and Graphing tools
    * [Introduction to numpy,scipi,matplotlib](https://scipy.org/getting-started.html)
 * Anaconda: The most relevant Python software for data analysis all in one package
-   * [Anaconda Introduction (from their own website)(https://www.anaconda.com/what-is-anaconda/)
+   * [Anaconda Introduction (from their own website)](https://www.anaconda.com/what-is-anaconda/)
    
 * Jupyter notebooks (formery known as iPython notebooks): a web platform for communicating scientific computing results, not just in Python, but other languages as well.
    * [Jupyter website](https://jupyter.org/)
