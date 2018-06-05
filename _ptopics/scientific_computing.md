@@ -27,7 +27,7 @@ For UC students, a variety of helpful books on a variety of computing topics can
 
 At that site, search for any topic related to computing.   A search on numpy brought up this just on the first screen of results.   Each of those is a link to a full-text ebook:
 
-![numpy search results](numpy-search-results.png)
+![numpy search results](numpy-search-results-30.png)
 
 
 
