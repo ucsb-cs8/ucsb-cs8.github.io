@@ -38,7 +38,7 @@ To import this file into a list of Python dictionaries, we can use the code belo
 ```
 import csv
 import pprint
-with open('grades.csv', newline='') as csvfile:
+with open('grades.csv') as csvfile:
    rows = list(csv.DictReader(csvfile))
 
 pprint.pprint(rows)
