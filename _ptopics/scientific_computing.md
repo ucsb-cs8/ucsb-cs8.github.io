@@ -18,3 +18,16 @@ investigating further.
    
 * Jupyter notebooks (formery known as iPython notebooks): a web platform for communicating scientific computing results, not just in Python, but other languages as well.
    * [Jupyter website](https://jupyter.org/)
+
+# Learning numpy,scipy,matplotlib
+
+For UC students, a variety of helpful books on a variety of computing topics can be found if you access the following site from either an on campus network address, or use the VPN for your campus (e.g. [the UCSB VPN](https://www.library.ucsb.edu/services/using-vpn):
+
+* [http://proquest.safaribooksonline.com/](http://proquest.safaribooksonline.com/)
+
+At that site, search for any topic related to computing.   A search on numpy brought up this just on the first screen of results.   Each of those is a link to a full-text ebook:
+
+![numpy search results](numpy-search-results.png)
+
+
+
