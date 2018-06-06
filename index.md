@@ -5,6 +5,7 @@ title: UCSB CS8
 <h1>UCSB CMPSC 8: Introduction to Computer Science</h1>
 <h2>(also: CMPTGCS 20: Introduction to CS for non-majors)</h2>
 
+
 <div id="about" data-role="collapsible" data-collapsed="true" markdown="1">
 <h2>About this course</h2>
 
@@ -35,6 +36,33 @@ Past offerings of CS8:
 * [Summer 2015, Veronika Strnadova](https://www.cs.ucsb.edu/~veronika/cs8/)
 * [Fall 2015, Çetin Kaya Koç and Emilie Barnard](http://emiliebarnard.com/teaching/cs8fall14/)
 * [Summer 2009, Summer 2010, Fall 2010, Fall 2013](https://www.cs.ucsb.edu/~pconrad/cs8/)
+
+</div><!-- about -->
+
+
+<div id="which-course" data-role="collapsible" data-collapsed="true" markdown="1">
+<h2>Which course should I start with? CS8 or CS16?</h2>
+
+If you are taking your first course in Computer Science at UCSB, you may be wondering whether you should start in:
+
+* CS8, which is intended as a first course in Programming
+   * CS8 targets folks that have never programmed before, and it is taught in Python
+* CS16, which is intended as a second programming course.
+   * CS16 is taught in C++
+   * CS16 does not assume prior background in C++
+   * BUT, CS16 DOES assume prior background in programming (e.g. AP CS taught in Java)
+
+So, there are some easy cases:
+
+* If you have <em>never</em> programmed before, you should start with CS8.
+* If you are <em>proficient</em> in Python or Java and confident of your programming abilities, but have not programmed in C++ before, you should start in CS16.
+
+More nuanced cases are these:
+
+* If you already do have some programming background, but you are not particularly confident of those abilities, or it's been a while and you need a refresher, you should likely start with CS8.
+* If you are proficient in C++ itself as a result of taking community college courses, check <https://assist.org> to see if those courses articulate to CS 16 (officially known as CMPSC&nbsp;16) at UCSB.  If so, you may be able to start directly in a later course such as CMPSC 24.
+
+If you are still not sure, you may need to talk with an adviser.  Brand new students can do this during summer orientation sessions when they register for courses.  Continuing students may visit the CS adviser in the main CS office on the 2nd floor of Harold Frank Hall.
 
 </div><!-- about -->
 
