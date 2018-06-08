@@ -64,6 +64,19 @@ Problems:
    representing number of units, and grade is a letter grade, e.g. `A`, `A-`, `B+`, etc.
    
    ```
-   courses1=[{},{},{}]
+   def test_1():
+      assert computeGPA( [  {"units": 4, "grade": "A" , "course": "CMPSC 8" }, 
+                            {"units": 5, "grade": "B+" , "course": "MATH 8" },
+                            {"units": 4, "grade": "A-" , "course": "MATH 6B" } ])  == pytest.approx(3.63846153846)
+
+   def test_2():
+     assert computeGPA( [  {"units": 4, "grade": "A" , "course": "CMPSC 8" },
+                           {"units": 5, "grade": "A" , "course": "MATH 8" },
+                           {"units": 4, "grade": "A" , "course": "MATH 6B" } ] ) == pytest.approx(4.00)
+
+   def test_3():
+     assert computeGPA( [  {"units": 4, "grade": "C" , "course": "CMPSC 8" },
+                           {"units": 5, "grade": "C" , "course": "MATH 8" },
+                           {"units": 4, "grade": "C" , "course": "MATH 6B" } ])  == pytest.approx(2.00)
    ```
    
