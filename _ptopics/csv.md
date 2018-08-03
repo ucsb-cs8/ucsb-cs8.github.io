@@ -29,7 +29,7 @@ CHEM 1AL,A-,2.0
 
 This might be stored, for example, in a file called `grades.csv`
 
-# Importing a CSV file
+# Importing a CSV file to list of dicts
 
 To import this file into a list of Python dictionaries, we can use the code below.  
 
@@ -71,3 +71,23 @@ At the Python prompt, we can then print out values from the variable rows to wor
 >>> 
 ```
 
+# Exporting list of dicts to CSV
+
+The following code from [this StackOverflow article](https://stackoverflow.com/questions/3086973/how-do-i-convert-this-list-of-dictionaries-to-a-csv-file) illustrates how to output a list of dict objects to a CSV file with a header.
+
+```
+import csv
+toCSV = [{'name':'bob','age':25,'weight':200},
+         {'name':'jim','age':31,'weight':180}]
+keys = toCSV[0].keys()
+with open('people.csv', 'wb') as output_file:
+    dict_writer = csv.DictWriter(output_file, keys)
+    dict_writer.writeheader()
+    dict_writer.writerows(toCSV)
+
+```
+
+The result should be:
+
+```
+```
