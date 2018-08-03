@@ -80,14 +80,17 @@ import csv
 toCSV = [{'name':'bob','age':25,'weight':200},
          {'name':'jim','age':31,'weight':180}]
 keys = toCSV[0].keys()
-with open('people.csv', 'wb') as output_file:
+with open('people.csv', 'w') as output_file:
     dict_writer = csv.DictWriter(output_file, keys)
     dict_writer.writeheader()
     dict_writer.writerows(toCSV)
 
 ```
 
-The result should be:
+The result should be the following output written to `people.csv`:
 
 ```
+age,weight,name
+25,200,bob
+31,180,jim
 ```
