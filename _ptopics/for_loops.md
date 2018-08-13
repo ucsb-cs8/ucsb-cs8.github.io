@@ -39,3 +39,28 @@ schools = ["UCSB","UCLA","UCI","Cal Poly"]
 for i in range(len(schools)):
    print(i,schools[i])
 ```
+
+```
+0 UCSB
+1 UCLA
+2 UCI
+3 Cal Poly
+```
+
+# For loop over a list with index and values
+
+```python
+schools = ["UCSB","UCLA","UCI","Cal Poly"]
+for i,s in enumerate(schools):
+    print(i,s)
+    
+```
+
+Output:
+
+```
+0 UCSB
+1 UCLA
+2 UCI
+3 Cal Poly
+```
