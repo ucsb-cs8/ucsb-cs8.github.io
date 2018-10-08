@@ -98,7 +98,9 @@ git push origin master
 
 # Step 5: Create Heroku Webapp
 
-TBD
+Go to the <https://heroku.com> website and login.  Then select the option to create a new app:
+
+![create-new-app.png](Create New App)
 
 # Step 6: Link Heroku webapp with Github repo
 
