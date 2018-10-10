@@ -100,11 +100,11 @@ git push origin master
 
 Go to the <https://heroku.com> website and login.  Then select the option to create a new app:
 
-![Create New App](create_new_app.png)
+![Create New App](create_new_app-50.png)
 
 Then enter an app name.    
 
-![Enter App Name](enter-app-name.png)
+![Enter App Name](enter-app-name-50.png)
 
 # Step 6: Link Heroku webapp with Github repo
 
@@ -112,7 +112,7 @@ To link the app with a Github repo containing a Flask app, do the following.
 
 First, go to the "Deploy Tab" in the Heroku app
 
-![Deploy Tab](deploy-tab.png)
+![Deploy Tab](deploy-tab-50.png)
 
 The select "Github":
 
