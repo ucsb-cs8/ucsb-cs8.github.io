@@ -1,12 +1,11 @@
 ---
 topic: "Flask Webapps: 04"
-desc: "Webapps on Heroku (COMING SOON)"
+desc: "Webapps on Heroku"
 indent: true
 ---
 
 {% include flask_webapps_header.html %}
 
-COMING SOON
 
 # Outline
 
