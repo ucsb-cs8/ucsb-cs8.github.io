@@ -114,7 +114,16 @@ First, go to the "Deploy Tab" in the Heroku app
 
 ![Deploy Tab](deploy-tab-50.png)
 
-The select "Github":
+The select "Github" as the deployment method.  Link your Heroku app with the github repo
+containing the code for your app.
+
+Then to deploy the app, select "Deploy Branch".  
+* If you are fairly new to using
+  github, you'll probably only have a "master branch" in your repo, so you'll deploy
+  from the master branch.  
+* If you are a more experienced github user, you can choose any branch of your repo
+   as the one to deploy from.
+   
 
 
 
