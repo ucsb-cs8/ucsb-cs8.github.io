@@ -100,7 +100,7 @@ git push origin master
 
 Go to the <https://heroku.com> website and login.  Then select the option to create a new app:
 
-![create_new_app.png](Create New App)
+![create-new-app.png](Create New App)
 
 # Step 6: Link Heroku webapp with Github repo
 
