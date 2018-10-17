@@ -100,17 +100,30 @@ do that now.   Instructions are here: [Installing Heroku CLI](https://devcenter.
 Assuming you have the `heroku` CLI installed, at a bash shell prompt you should be able to type
 `heroku login`.
 
+
 Now type `heroku create` and notice the name of the application created.
-
 * It will take the form word-word-number, e.g. flying-tomato-4321
+* <b>If you cannot get the heroku CLI installed</b> or it is not working, you *can still
+   continue with this tutorial* by just creating a new application at the Heroku Dashboard.
+   The CLI makes things more convenient, but it isn't strictly necessary to work with Heroku.
+   I'll note alternatives along the way.
 
-The next step is to type:
+If you are using the Heroku CLI, the next step is to type:
 
 ```
 git push heroku master
 ```
 
-After doing `git push heroku master`, you'll probably see lots of output, showing that your webapp is now running on Heroku.
+* Alternative if Heroku CLI isn't working: visit the Deploy tab of your newly created 
+   Heroku App,  link your github repo to your Heroku App, and use the Deploy Branch method,
+   as described in [Tutorial Flask Web 05](/tutorials/flask_web_05/).
+
+After doing `git push heroku master`, you'll probably see lots of output, 
+showing either that your webapp is now running on Heroku, or that some error occurred.
+* For the Heroku Dashboard method, the output will be shown on the "build log" screen 
+   on the [dashboard.heroku.com](https://dashboard.heroku.com) website.
+
+If at the end, the output says "Deployed to Heroku", then:
 
 * To see your app, visit https://word-word-number.herokuapp.com, 
 * e.g. https://flying-tomato-4321.herokuapp.com
