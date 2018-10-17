@@ -94,7 +94,9 @@ machine where you are working.
 it's the `heroku` command.  
 * If you are working on your own laptop or desktop and haven't already installed the "heroku command line" for your machine,
 do that now.   Instructions are here: [Installing Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
-
+* Note for MacOS users: The instructions for installing the Heroku CLI 
+   assume that you already have Homebrew installed.  If you get `brew: command not found`, visit
+   these instructions to [install Homebrew first](https://brew.sh).
 Assuming you have the `heroku` CLI installed, at a bash shell prompt you should be able to type
 `heroku login`.
 
