@@ -88,6 +88,16 @@ git commit -m "Added list of Python modules needed by Heroku"
 git push origin master
 ```
 
+For the next step, you'll need the Heroku Command Line Interface (CLI) installed on the
+machine where you are working. 
+* If you are working on CSIL, the Heroku CLI is already installed;
+it's the `heroku` command.  
+* If you are working on your own laptop or desktop and haven't already installed the "heroku command line" for your machine,
+do that now.   Instructions are here: [Installing Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+
+Assuming you have the `heroku` CLI installed, at a bash shell prompt you should be able to type
+`heroku login`.
+
 Now type `heroku create` and notice the name of the application created.
 
 * It will take the form word-word-number, e.g. flying-tomato-4321
