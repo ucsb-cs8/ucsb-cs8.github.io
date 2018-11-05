@@ -12,5 +12,10 @@ for everyone.
 * Symbolic Computation in Python: <https://www.sympy.org/en/index.html>
    * Symbolic Computation involves computing with algebraic expressions rather than with numbers.  Examples include simplifying algebraic expressions and finding integrals and derivatives 
       symbolically.  You may be used to using systems such as Wolfram Alpha or Mathematical for this application.
+   * Some advantages of sympy over Wolfram and Mathematica
+      * It's free and open source, while Wolfram and Mathematica both cost money in certain configurations
+      * Wolfram and Mathematica each have particular limitations, while sympy, as an open source project, is one that,
+         in principle, can be extended to solve any problem we know how to solve (if we are willing to put in the work.)
+         
       
       
