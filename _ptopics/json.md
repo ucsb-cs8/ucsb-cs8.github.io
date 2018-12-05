@@ -724,3 +724,8 @@ As it turns out, even the first five is too long to effectively use copy/paste t
 >>> 
 ```
 
+# For further study
+
+A more sophisticated way of accessing JSON data with Python is to use the Pandas data science library.
+
+There is a tutorial here: <https://www.dataquest.io/blog/python-json-tutorial>
