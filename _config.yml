@@ -1,26 +1,26 @@
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
+
+url: https://ucsb-cs8.github.io # the base hostname & protocol for your site
+baseurl: "/"  # the subpath of your site "/" for main, "/w19" for instance
+
 title: "UCSB CS8"
 course: "CS8"
 github_url: https://github.com/ucsb-cs8/ucsb-cs8.github.io
-gauchospace_url: https://gauchospace.ucsb.edu/courses/course/view.php?id=22004
-piazza_url: https://piazza.com/class/jfcrh3y7xol3cc
 
-legacy_wiki_name: 8wiki
-legacy_wiki_url: "https://foo.cs.ucsb.edu/8wiki" 
-
-on_campus: http://proquest.safaribooksonline.com
-off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048/
-
-instructor: https://ucsb-cs8.github.io/instructor
-
-#kramdown:
-#  parse_block_html: true
+kramdown:
+  parse_block_html: false
 
 exclude: ['vendor', 'setup.sh', 'jekyll.sh']
+include:
+  - _pages
 
 timezone: America/Los_Angeles
 
 collections:
-
   tutorials:
     output: true
     permalink: /tutorials/:path/
@@ -28,19 +28,15 @@ collections:
   topics:
     output: true
     permalink: /topics/:path/
-
-  ptopics:
-    output: true
-    permalink: /ptopics/:path/
-
   textbooks:
     output: true
     permalink: /textbooks/:path/
-
   resources:
     output: true
     permalink: /resources/:path/
-    
+  ptopics:
+    output: true
+    permalink: /ptopics/:path/
   instructors:
     output: true
     permalink: /instructors/:path/
@@ -54,21 +50,21 @@ defaults:
       layout: "default"
   - scope:
       path: ""
-      type: topics
+      type: default
     values:
-      layout: topic
-  - scope:
-      path: ""
-      type: ptopics
-    values:
-      layout: topic
+      layout: default
   - scope:
       path: ""
       type: resources
     values:
-      layout: topic
+      layout: default
   - scope:
       path: ""
       type: instructor
     values:
-      layout: topic
+      layout: default
+  - scope:
+      path: ""
+      type: default
+    values:
+      layout: default
