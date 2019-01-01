@@ -56,31 +56,7 @@ Past offerings of CS8:
 
 <div class="collapse" id="8-or-16">
  <div class="card card-body" markdown="1">
-
-
-## Which course should I start with? CS8 or CS16?
-
-If you are taking your first course in Computer Science at UCSB, you may be wondering whether you should start in:
-
-* CS8, which is intended as a first course in Programming
-   * CS8 targets folks that have never programmed before, and it is taught in Python
-* CS16, which is intended as a second programming course.
-   * CS16 is taught in C++
-   * CS16 does not assume prior background in C++
-   * BUT, CS16 DOES assume prior background in programming (e.g. AP CS taught in Java)
-
-So, there are some easy cases:
-
-* If you have <em>never</em> programmed before, you should start with CS8.
-* If you are <em>proficient</em> in Python or Java and confident of your programming abilities, but have not programmed in C++ before, you should start in CS16.
-
-More nuanced cases are these:
-
-* If you already do have some programming background, but you are not particularly confident of those abilities, or it's been a while and you need a refresher, you should likely start with CS8.
-* If you are proficient in C++ itself as a result of taking community college courses, check <https://assist.org> to see if those courses articulate to CS 16 (officially known as CMPSC&nbsp;16) at UCSB.  If so, you may be able to start directly in a later course such as CMPSC 24.
-
-If you are still not sure, you may need to talk with an adviser.  Brand new students can do this during summer orientation sessions when they register for courses.  Continuing students may visit the CS adviser in the main CS office on the 2nd floor of Harold Frank Hall.
-
+  {% include 8-or-16.md %}
 </div>
 </div>
 
@@ -88,62 +64,31 @@ If you are still not sure, you may need to talk with an adviser.  Brand new stud
 {% include collapse-button.html label="Textbooks" id="textbook-list" %}
 <div class="collapse" id="textbook-list">
  <div class="card card-body" markdown="1">
-
 ## Textbooks
-
-<ul>
-  {% assign textbooks = site.textbooks | sort: 'custom_sort_order' %}
-  {% for textbook in textbooks %}
-  <li {% if topic.indent %} class="indent" {% endif %}><a href="{{textbook.url}}">{{ textbook.title }}</a>&mdash;{{textbook.desc}}</li>
-      {% endfor %}
-</ul>
+{% include textbooks_list.html %}
 </div>
 </div>
 
 {% include collapse-button.html label="Python Topics" id="python-topics" %}
 <div class="collapse" id="python-topics">
  <div class="card card-body" markdown="1">
-
-
-## Python Topics
-  <ul>
-   {% for topic in site.ptopics %}
-     <li {% if topic.indent %} class="indent" {% endif %}><a href="{{topic.url}}">{{ topic.topic }}</a>&mdash;{{topic.desc}}</li>
-   {% endfor %}
-  </ul>
-
+{% include ptopics_list.html %}
  </div>
 </div>
 
 {% include collapse-button.html label="Other Topics" id="other-topics" %}
 <div class="collapse" id="other-topics">
  <div class="card card-body" markdown="1">
-
-## Other Topics
-
-  <ul>
-   {% for topic in site.topics %}
-     <li {% if topic.indent %} class="indent" {% endif %}><a href="{{topic.url}}">{{ topic.topic }}</a>&mdash;{{topic.desc}}</li>
-   {% endfor %}
-  </ul>
-
+{% include topics_list.html %}
  </div>
 </div>
 
 
 {% include collapse-button.html label="Resources" id="resources" %}
 <div class="collapse" id="resources">
- <div class="card card-body" markdown="1">
-
-## Resources
-
-  <ul>
-   {% for topic in site.resources %}
-     <li {% if topic.indent %} class="indent" {% endif %}><a href="{{topic.url}}">{{ topic.topic }}</a>&mdash;{{topic.desc}}</li>
-   {% endfor %}
-  </ul>
-
- </div>
+<div class="card card-body" markdown="1">
+{% include resources_list.html %}
+</div>
 </div>
 
 
@@ -154,11 +99,11 @@ If you are still not sure, you may need to talk with an adviser.  Brand new stud
 
 ## Tutorials
 
-  <ul>
-   {% for t in site.tutorials %}
-     <li {% if t.indent %} class="indent" {% endif %} ><a href="{{t.url}}">{{ t.topic }}</a>&mdash;{{t.desc}}</li>
-   {% endfor %}
-  </ul>
+<ul>
+{% for t in site.tutorials %}
+  <li {% if t.indent %} class="indent" {% endif %} ><a href="{{t.url}}">{{ t.topic }}</a>&mdash;{{t.desc}}</li>
+{% endfor %}
+</ul>
 
  </div>
 </div>

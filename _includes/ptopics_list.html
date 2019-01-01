@@ -1,0 +1,10 @@
+<ul>
+{% for t in site.ptopics %}
+{% if t.skipIndex %}
+{% else %}
+  <li {% if t.indent %} class="indent" {% endif %} >
+    <a href="{{t.url}}">{{ t.topic }}</a>&mdash;{{t.desc}}
+   </li>
+  {% endif %}
+{% endfor %}
+</ul>

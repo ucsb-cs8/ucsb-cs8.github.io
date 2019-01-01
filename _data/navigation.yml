@@ -1,18 +1,4 @@
-# the production_url is the url that the parent/child site have in common
-#  e.g. production_url: https://ucsb-cs8.github.io
-#  for main site http://ucsb-cs8.github.io
-#  and child sites
-#    https://ucsb-cs8.github.io/w19-matni
-#    https://ucsb-cs8.github.io/w19-mirza
-#    https://ucsb-cs8.github.io/s19-kharitonova
-#    https://ucsb-cs8.github.io/s19-mirza
-#    etc.
-
 production_url: https://ucsb-cs8.github.io
-
-# List the title and url for each item on navigation bar.
-# For items that should be relative urls, put the baseurl of the site
-# they come from, / for main site, and /f18, /s19, etc for child sites.
 
 home:
    title: UCSB CS8
@@ -22,10 +8,17 @@ home:
 main_dropdown:
    title: Resources
    items:
-     - title: Topics
+     - title: Python Topics
+       url: /ptopic_list/
+     - title: Other Topics
        url: /topic_list/
      - title: Resources
-       url: /resources_list/
+       url: /resource_list/
+     - title: Tutorials
+       url: /tutorial_list/
+     - title: Textbooks
+       url: /textbook_list/       
+
 
 offerings:
    title: "W19 Matni"
@@ -80,6 +73,8 @@ offering_links:
          description: "Q&A Forum"
   - title: Github
     dropdown:
+       - title: ucsb-cs8-w19-matni
+         url: https://github.com/ucsb-cs8-w19-matni
        - title: ucsb-cs8-w19-mirza
          url: https://github.com/ucsb-cs8-w19-mirza
 
