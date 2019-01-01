@@ -90,14 +90,14 @@ If you are still not sure, you may need to talk with an adviser.  Brand new stud
  <div class="card card-body" markdown="1">
 
 ## Textbooks
-    <ul>
-      {% assign textbooks = site.textbooks | sort: 'custom_sort_order' %}
-      {% for textbook in textbooks %}
-         <li {% if topic.indent %} class="indent" {% endif %}><a href="{{textbook.url}}">{{ textbook.title }}</a>&mdash;{{textbook.desc}}</li>
-      {% endfor %}
-    </ul>
 
- </div>
+<ul>
+  {% assign textbooks = site.textbooks | sort: 'custom_sort_order' %}
+  {% for textbook in textbooks %}
+  <li {% if topic.indent %} class="indent" {% endif %}><a href="{{textbook.url}}">{{ textbook.title }}</a>&mdash;{{textbook.desc}}</li>
+      {% endfor %}
+</ul>
+</div>
 </div>
 
 {% include collapse-button.html label="Python Topics" id="python-topics" %}
