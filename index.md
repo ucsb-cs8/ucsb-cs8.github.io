@@ -56,7 +56,7 @@ Past offerings of CS8:
 
 <div class="collapse" id="8-or-16">
  <div class="card card-body" markdown="1">
-  {% include 8-or-16.md %}
+{% include 8-or-16.md %}
 </div>
 </div>
 
@@ -96,15 +96,8 @@ Past offerings of CS8:
 {% include collapse-button.html label="Tutorials" id="tutorials" %}
 <div class="collapse" id="tutorials">
  <div class="card card-body" markdown="1">
-
 ## Tutorials
-
-<ul>
-{% for t in site.tutorials %}
-  <li {% if t.indent %} class="indent" {% endif %} ><a href="{{t.url}}">{{ t.topic }}</a>&mdash;{{t.desc}}</li>
-{% endfor %}
-</ul>
-
+{% include tutorials_list.html %}
  </div>
 </div>
 

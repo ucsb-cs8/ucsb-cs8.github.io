@@ -8,16 +8,18 @@ home:
 main_dropdown:
    title: Resources
    items:
+     - title: "CS8 or CS16?"
+       url: /8-or-16/
+     - title: Textbooks
+       url: /textbooks_list/       
      - title: Python Topics
        url: /ptopic_list/
      - title: Other Topics
        url: /topic_list/
      - title: Resources
-       url: /resource_list/
+       url: /resources_list/
      - title: Tutorials
-       url: /tutorial_list/
-     - title: Textbooks
-       url: /textbook_list/       
+       url: /tutorials_list/
 
 
 offerings:
