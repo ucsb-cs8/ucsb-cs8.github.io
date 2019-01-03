@@ -22,62 +22,80 @@ main_dropdown:
        url: /tutorials_list/
 
 
-offerings:
-   title: "W19 Matni"
-   url: /	
-   baseurl: /w19-matni
-   items:
-      - title: "W19 Matni"
-        url: /
-        baseurl: /w19-matni
-      - title: "W19 Mirza"
-        url: /
-        baseurl: /w19-mirza
-
-offering_links:
-  - title: Hwk
-    url: /hwk_list/
-    description: "Homework Assignments"
-  - title: PA
-    url: /pa_list/
-    description: "Programming Assignments"
-  - title: Lab
-    url: /lab_list/
-    description: "Lab Assignments"
-  - title: Exam
-    url: /exam_list/
-    description: "Exams"
-  - title: Cal
-    url: /info/calendar/
-    description: "Assignment Calendar"
-  - title: More
-    dropdown:
-       - title: Syllabus
-         url: /info/syllabus/
-         description: "Syllabus"    
-       - title: Info Pages
-         url: /info_list/
-         description: "List of General Information Pages"
-       - title: Office Hours	
-         url: /info/office_hours/
-       - title: Staff
-         url: /staff_list/
-  - title: Links
-    dropdown:	 
-       - title: Gauchospace
-         url: https://gauchospace.ucsb.edu
-         description: "Overall Grade Information"
-       - title: GradeScope
-         url: https://gradescope.com
-         description: "HW and Lab Grades"
-       - title: Piazza
-         url: https://piazza.com
-         description: "Q&A Forum"
-  - title: Github
-    dropdown:
-       - title: ucsb-cs8-w19-matni
-         url: https://github.com/ucsb-cs8-w19-matni
-       - title: ucsb-cs8-w19-mirza
-         url: https://github.com/ucsb-cs8-w19-mirza
-
+offering_menus:
+  -
+    term: W19-Matni
+    baseurl: /w19-matni
+    items: 
+      - title: Hwk
+        url: /hwk_list/
+        description: "Homework Assignments"
+      - title: Lab
+        url: /lab_list/
+        description: "Lab Assignments"
+      - title: Exam
+        url: /exam_list/
+        description: "Exams"
+      - title: Cal
+        url: /info/calendar/
+        description: "Assignment Calendar"
+      - title: More
+        dropdown:
+           - title: Syllabus
+             url: /info/syllabus/
+             description: "Syllabus"    
+           - title: Info Pages
+             url: /info_list/
+             description: "List of General Information Pages"
+      - title: Links
+        dropdown:	 
+           - title: Gauchospace
+             url: https://gauchospace.ucsb.edu
+             description: "Overall Grade Information"
+           - title: GradeScope
+             url: https://gradescope.com
+             description: "HW and Lab Grades"
+           - title: Piazza
+             url: https://piazza.com
+             description: "Q&A Forum"
+  -
+    term: W19-Mirza
+    baseurl: /w19-mirza
+    items: 
+      - title: Assignments
+        dropdown:
+        - title: Hwk
+          url: /hwk_list/
+          description: "Homework Assignments"
+        - title: Lab
+          url: /lab_list/
+          description: "Lab Assignments"
+      - title: Lectures
+        url: /lectures_list/
+        description: "Lectures"
+      - title: Exam
+        url: /exam_list/
+        description: "Exams"
+      - title: Cal
+        url: /info/calendar/
+        description: "Assignment Calendar"
+      - title: More
+        dropdown:
+           - title: Syllabus
+             url: /info/syllabus/
+             description: "Syllabus"    
+           - title: Info Pages
+             url: /info_list/
+             description: "List of General Information Pages"
+      - title: Links
+        dropdown:	 
+           - title: Gauchospace
+             url: https://gauchospace.ucsb.edu
+             description: "Overall Grade Information"
+           - title: GradeScope
+             url: https://gradescope.com
+             description: "HW and Lab Grades"
+           - title: Piazza
+             url: https://piazza.com
+             description: "Q&A Forum"
 
