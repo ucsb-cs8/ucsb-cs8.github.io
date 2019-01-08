@@ -99,3 +99,29 @@ offering_menus:
              url: https://piazza.com
              description: "Q&A Forum"
 
+  -
+    term: W19-Conrad
+    baseurl: /w19-conrad
+    items: 
+       - title: Lab
+         url: /lab_list/
+         description: "Lab Assignments"
+       - title: Cal
+         url: /info/calendar/
+         description: "Assignment Calendar"
+       - title: More
+         dropdown:
+            - title: Syllabus
+              url: /info/syllabus/
+              description: "Syllabus"    
+            - title: Info Pages
+              url: /info_list/
+              description: "List of General Information Pages"
+       - title: Links
+         dropdown:	 
+            - title: Gauchospace
+              url: https://gauchospace.ucsb.edu
+              description: "Overall Grade Information"
+            - title: GradeScope
+              url: https://gradescope.com
+              description: "HW and Lab Grades"
