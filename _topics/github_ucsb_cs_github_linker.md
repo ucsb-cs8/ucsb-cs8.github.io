@@ -35,6 +35,8 @@ Go to your email and look for the verification email.  Click to verify the email
 At the address: <https://ucsb-cs-github-linker.herokuapp.com> there is a webapp that will allow you to join the github
 organization for your course.
 
+At the home page of that site, you should see a list of courses.   You should be able to find the course that you are trying to join, and click the blue "Join" button.
+
 To be able join, the following must all be true:
 
 1.  Your instructor has registered a github org for the course
