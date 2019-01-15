@@ -18,11 +18,17 @@ If you already have an account, go to step 2.
 
 # Step 2: Add your `cgaucho@umail.ucsb.edu` to the list of emails on your Github account.
 
-TODO: Details here
+* Go to the settings for your github account (menu upper right)
+* Go to "emails".  Or while logged in, visit: <https://github.com/settings/emails>
+* Add your `cgaucho@umail.ucsb.edu` to the list of emails on your Github account.
 
 # Step 3: Verify your `cgaucho@umail.ucsb.edu` email address
 
-TODO: Details here
+You should see something like this:
+
+* `cgaucho@umail.ucsb.edu Unverified Verification email sent. `
+
+Go to your email and look for the verification email.  Click to verify the email.  If you can't find it, click to resend the verification email.
 
 # Step 4: Use your Github account to login to the [ucsb-cs-github-linker](https://ucsb-cs-github-linker.herokuapp.com) webapp
 
