@@ -109,6 +109,9 @@ offering_menus:
        - title: Cal
          url: /info/calendar/
          description: "Assignment Calendar"
+       - title: Slack
+         url: https://ccs-cs20-w19.slack.com
+         description: "Discussion Group"
        - title: More
          dropdown:
             - title: Syllabus
