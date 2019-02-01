@@ -14,8 +14,11 @@ import json
 
 with open('strings.json') as json_data:
     d = json.load(json_data)
-    print(d)
+
+print(d)
 ```
+
+The `print(d)` is just a way to show that we have the data.
 
 ## Read json data from url into Python object (dict or list)
 
