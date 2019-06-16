@@ -1,10 +1,18 @@
 ---
 topic: Testing
-desc: Various ways of testing Python functions
+desc: Simple Interactive Testing of Python functions, and pointers to more advanced testing techniques
 ---
 
 There are various strategies for testing Python functions.   Each of these is appropriate at a certain stage in your development 
 as a Python programmer.
+
+In this article, we cover simple interactive testing both with IDLE, and without IDLE (using just the `python3` or `python` command a at the command line prompt).
+
+Other articles cover:
+
+* [pytest](/ptopics/pytest), a simple testing framework that require an extra install
+* [unittest](/ptopics/unittest), a testing framework that is slightly harder to understand for beginners, but is built in to Python
+
 
 # Simple Interactive Testing in IDLE
 
