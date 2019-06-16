@@ -74,3 +74,16 @@ If you want the output from a set of tests to be compact, and the same each time
 ```
 python3 -m pytest -qq foo.py -k test_bar3
 ```
+
+# Setting up a simple test
+
+Suppose you have a simple function such as this one that computes the area of a rectangle:
+
+```
+def area_rect(length, width):
+  return length * width
+```
+
+To set up test cases for this function with pytest, you write functions such as these:
+
+TODO
