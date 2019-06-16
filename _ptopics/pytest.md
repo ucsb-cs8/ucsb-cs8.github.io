@@ -84,6 +84,40 @@ def area_rect(length, width):
   return length * width
 ```
 
-To set up test cases for this function with pytest, you write functions such as these:
+To set up test cases for this function with pytest, you add functions such as these to `area.py`
 
-TODO
+```
+def test_area_rect_1():
+   assert area_rect(3,5) == 15
+
+def test_area_rect_2():
+   assert area_rect(2.5,4) == 10.0
+```
+
+You can run the tests by typing either of these commands:
+
+```
+python3 -m pytest area.py
+```
+
+Or simply:
+
+```
+pytest area.py
+```
+
+If the tests pass, it looks like this:
+
+```
+cgaucho$ python3 -m pytest area.py
+================================== test session starts ==================================
+platform darwin -- Python 3.6.5, pytest-3.5.0, py-1.5.3, pluggy-0.6.0
+rootdir: /Users/cgaucho/Downloads, inifile:
+plugins: utils-0.0.0
+collected 2 items                                                                       
+
+area.py ..                                                                        [100%]
+
+=============================== 2 passed in 0.01 seconds ================================
+cgaucho$ 
+```
