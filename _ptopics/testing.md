@@ -52,5 +52,5 @@ This way of testing is appropriate when you are first starting with Python.  But
 
 A few better ways of testing include:
 
-* [pytest](/topics/pytest)
-* [unittest](/topics/unittest)
+* [pytest](/ptopics/pytest)
+* [unittest](/ptopics/unittest)
