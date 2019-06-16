@@ -3,6 +3,12 @@ topic: "Python: unittest"
 desc: "module for test-driven development in Python"
 ---
 
+This page describes using `unittest` to test Python code.
+
+If you are new to Python, you may want to first consider looking at either:
+* [testing](/ptopics/testing): notes on simple approaches to interactive testing
+* [pytest](/ptopics/pytest): a alternative to `unittest` that may students and instructors find easier to understand, but that requires a separate installation through `pip install --user pytest`
+
 # Using `unittest` to test your Python code
 
 Test-driven development involves writing "unit tests" for each individual
