@@ -28,13 +28,13 @@ offering_menus:
     baseurl: /m19-elsherif
     items: 
       - title: Hwk
-        url: /hwk_list/
+        url: /hwk/
         description: "Homework Assignments"
       - title: Lab
-        url: /lab_list/
+        url: /lab/
         description: "Lab Assignments"
       - title: Exam
-        url: /exam_list/
+        url: /exam/
         description: "Exams"
       - title: Cal
         url: /info/calendar/
@@ -45,7 +45,7 @@ offering_menus:
              url: /info/syllabus/
              description: "Syllabus"    
            - title: Info Pages
-             url: /info_list/
+             url: /info/
              description: "List of General Information Pages"
       - title: Links
         dropdown:	 
@@ -63,13 +63,13 @@ offering_menus:
     baseurl: /m19-wang
     items: 
       - title: Hwk
-        url: /hwk_list/
+        url: /hwk/
         description: "Homework Assignments"
       - title: Lab
-        url: /lab_list/
+        url: /lab/
         description: "Lab Assignments"
       - title: Exam
-        url: /exam_list/
+        url: /exam/
         description: "Exams"
       - title: Cal
         url: /info/calendar/
@@ -80,7 +80,7 @@ offering_menus:
              url: /info/syllabus/
              description: "Syllabus"    
            - title: Info Pages
-             url: /info_list/
+             url: /info/
              description: "List of General Information Pages"
       - title: Links
         dropdown:	 
