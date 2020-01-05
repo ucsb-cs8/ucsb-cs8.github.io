@@ -14,7 +14,7 @@ temperature = 98.6
 ```
 
 The equals sign `=` appears in Python assignment statements, but it isn't used the same way as it is used in a Math class.  
-For example, in a math class, the `=` sign is symmetric meaning that you can flip the right and left hand side.  In Math class, if $$ x=y $$ then $$ y=x $$.
+For example, in a math class, the `=` sign is symmetric meaning that you can flip the right and left hand side.  In Math class, if \$$ x=y $$ then \$$ y=x $$.
 
 But Python is different.  The left-hand side of the `=` and right-hand side of the `=` have different meanings. 
 * The left-hand side, e.g., `x`, `name`, and `temperature` in the examples above, always indicates _where_ a new value is going to be stored.
