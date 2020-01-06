@@ -24,6 +24,34 @@ main_dropdown:
 
 offering_menus:
   -
+    term: W20
+    baseurl: /w20
+    items: 
+      - title: Syllabus
+        url: /info/syllabus/
+        description: "University and course policies"    
+      - title: Calendar
+        url: /info/calendar/
+        description: "Assignment Calendar"
+      - title: Lectures
+        url: /lec_list/
+        description: "Lecture-related information"
+      - title: Open Lab/Office Hours
+        dropdown:
+        url: /info/staff/
+        description: "Staff information + Office Hours / Open Lab Hours"
+      - title: Links
+        dropdown:    
+           - title: Gauchospace
+             url: https://gauchospace.ucsb.edu
+             description: "Overall Grade Information"
+           - title: GradeScope
+             url: https://gradescope.com
+             description: "HW and Lab Grades"
+           - title: Piazza
+             url: https://piazza.com
+             description: "Q&A Forum"
+  -
     term: F19
     baseurl: /f19
     items: 
