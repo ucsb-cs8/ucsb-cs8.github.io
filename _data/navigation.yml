@@ -52,6 +52,35 @@ offering_menus:
              url: https://piazza.com
              description: "Q&A Forum"
   -
+    term: W20-CCS
+    baseurl: /w20-ccs
+    items: 
+       - title: Lab
+         url: /lab_list/
+         description: "Lab Assignments"
+       - title: Cal
+         url: /info/calendar/
+         description: "Assignment Calendar"
+       - title: Slack
+         url: https://ccs-cs20-w19.slack.com
+         description: "Discussion Group"
+       - title: More
+         dropdown:
+            - title: Syllabus
+              url: /info/syllabus/
+              description: "Syllabus"    
+            - title: Info Pages
+              url: /info_list/
+              description: "List of General Information Pages"
+       - title: Links
+         dropdown:	 
+            - title: Gauchospace
+              url: https://gauchospace.ucsb.edu
+              description: "Overall Grade Information"
+            - title: GradeScope
+              url: https://gradescope.com
+              description: "HW and Lab Grades"
+  -
     term: F19
     baseurl: /f19
     items: 
